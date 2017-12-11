@@ -21,7 +21,7 @@ app.use('/mediaservice', mediaservice)
 
 //SERVER'
 var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
-    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0',
+    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 
 //var port = 8888,
    // ip   = '0.0.0.0';
