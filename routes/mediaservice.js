@@ -3,7 +3,7 @@ var express = require('express')
 var router = express.Router()
 
 var persistObj = require('../dbconnection.js')
-var imdbModule = require('./imdbModule.js')
+//var imdbModule = require('./imdbModule.js')
 
 //variants for movie json
 var d = new Date()
@@ -85,11 +85,11 @@ router.delete('/actor', function (req, res) {
 });
 
 router.get('/latestMovies',function(req, res){
-    imdbModule.getLatestMovies(currdate,function(movieResults){
-        console.log("latest Movies");
-        moviesResponse = {results:movieResults}    
-        res.json(moviesResponse);
-    });
+    // imdbModule.getLatestMovies(currdate,function(movieResults){
+    //     console.log("latest Movies");
+    //     moviesResponse = {results:movieResults}    
+    //     res.json(moviesResponse);
+    // });
     console.log("latest Movies service end of block");    
 });
 
