@@ -23,6 +23,7 @@ router.use(function timeLog (req, res, next) {
 //ACTORS
 //GET ACTORS
 router.get('/actors', function (req, res) {
+    console.log("are u asking for actors?? ");    
     dbObj = persistObj.getDB()        
     if (dbObj)
     {
