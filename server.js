@@ -57,7 +57,7 @@ app.get('/pagecount', function (req, res) {
 });
 
 //SERVER'
-var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
+var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8888,
     ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
 
 //var port = 8888,

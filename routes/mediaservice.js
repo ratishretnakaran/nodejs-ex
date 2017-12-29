@@ -13,6 +13,8 @@ var curr_date = d.getDate();
 var curr_month = d.getMonth() + 1; //Months are zero based
 var curr_year = d.getFullYear();
 currdate = curr_year+ "-" + curr_month + "-" + curr_date;
+var fs = require('fs');
+
 
 // middleware that is specific to this router
 router.use(function timeLog (req, res, next) {
@@ -91,6 +93,68 @@ router.get('/latestMovies',function(req, res){
     //     res.json(moviesResponse);
     // });
     console.log("latest Movies service end of block");    
+});
+
+//CONFIGURATION
+router.get('/configuration',function(req, res){
+   console.log("CONFIGURATION GET");    
+   
+   var obj;   
+   fs.readFile('./jsons/configuration.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
+
+//ENTRY POINT
+router.get('/entrypoint/v1',function(req, res){
+   console.log("ENTRY POINT GET");    
+   
+   var obj;   
+   fs.readFile('./jsons/entrypoint.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
+
+//MAIN MENU
+router.get('/entrypoint/v1/mainmenu',function(req, res){
+   console.log("MAIN MENU GET");    
+   
+   var obj;   
+   fs.readFile('./jsons/mainmenu.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
+
+
+//ON NOW
+router.get('/entrypoint/v1/programs/onnow',function(req, res){
+   console.log("ON NOW GET");    
+   
+   var obj;   
+   fs.readFile('./jsons/onnowprograms.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
+
+
+//PROGRAM DETAIL
+router.get('/entrypoint/v1/event',function(req, res){
+   console.log("EVENT DETAIL GET");    
+   
+   var obj;   
+   fs.readFile('./jsons/eventdetail.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
 });
 
 module.exports = router;

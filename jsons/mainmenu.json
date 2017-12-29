@@ -1,0 +1,51 @@
+{
+  "sections": [
+    {
+      "name": "",
+      "items": [
+        {
+          "context": "onDemand",
+          "displayText": "VIDEO ON DEMAND",
+          "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/nonselected/OnDemand.png",
+          "selectedImageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/selected/OnDemand.png",
+          "url": "/entrypoint/v1/mainMenu/ondemand"
+        },
+        {
+          "context": "tv",
+          "displayText": "LIVE TV",
+          "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/nonselected/LiveTv.png",
+          "selectedImageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/selected/LiveTv.png",
+          "url": ""
+        },
+        {
+          "context": "search",
+          "displayText": "SEARCH",
+          "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/nonselected/Search.png",
+          "selectedImageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/selected/Search.png",
+          "url": "/entrypoint/v1/mainmenu/search"
+        },
+        {
+          "context": "settings",
+          "displayText": "SETTINGS",
+          "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/nonselected/Settings.png",
+          "selectedImageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/selected/Settings.png",
+          "url": ""
+        },
+        {
+          "context": "library",
+          "displayText": "LIBRARY",
+          "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/nonselected/Library.png",
+          "selectedImageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/selected/Library.png",
+          "url": ""
+        },
+        {
+          "context": "catchup",
+          "displayText": "CATCHUP",
+          "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/nonselected/CatchUp.png",
+          "selectedImageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/selected/CatchUp.png",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
