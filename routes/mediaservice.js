@@ -96,8 +96,8 @@ router.get('/latestMovies',function(req, res){
 });
 
 //CONFIGURATION
-router.get('/configuration',function(req, res){
-   console.log("CONFIGURATION GET");    
+router.post('/configuration',function(req, res){
+   console.log("CONFIGURATION GET");
    
    var obj;   
    fs.readFile('./jsons/configuration.json', 'utf8', function (err, data) {
