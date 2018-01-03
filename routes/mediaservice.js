@@ -131,6 +131,17 @@ router.get('/entrypoint/v1/mainmenu',function(req, res){
    });
 });
 
+//CHANNELS
+router.get('/entrypoint/v1/channels',function(req, res){
+   console.log("CHANNELS GET");    
+   
+   var obj;   
+   fs.readFile('./jsons/channels.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
 
 //ON NOW
 router.get('/entrypoint/v1/programs/onnow',function(req, res){
