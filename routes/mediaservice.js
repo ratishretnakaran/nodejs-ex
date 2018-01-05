@@ -14,7 +14,21 @@ var curr_month = d.getMonth() + 1; //Months are zero based
 var curr_year = d.getFullYear();
 currdate = curr_year+ "-" + curr_month + "-" + curr_date;
 var fs = require('fs');
+var channelsNewObj;
 
+var cloudinary = require('cloudinary');
+
+cloudinary.config({ 
+  cloud_name: '', 
+  api_key: '', 
+  api_secret: '' 
+});
+
+
+fs.readFile('./jsons/channelsv2.json', 'utf8', function (err, data) {
+   channelsNewObj = JSON.parse(data);
+   console.log("Prepared channelsNewObj");
+});
 
 // middleware that is specific to this router
 router.use(function timeLog (req, res, next) {
@@ -167,5 +181,204 @@ router.get('/entrypoint/v1/event',function(req, res){
       res.send(obj);
    });
 });
+
+//UPDATE PROGRAMS
+router.post('/entrypoint/v1/programs/onnow/update',function(req, res){
+   console.log("ON NOW GET");    
+   
+   //first check if there is a collection for onnow programs
+   dbObj = persistObj.getDB()        
+   if (dbObj)
+   {
+      console.log("DB EXISTS")
+      //var ObjectId = require('mongodb').ObjectID;
+      var onNowCollection = dbObj.collection('onnowprograms')
+      if (onNowCollection)
+      {
+         console.log("onNowCollection EXISTS....");
+         //console.log(onNowCollection);
+         onnowProgramsCount = onNowCollection.count();
+         if (onnowProgramsCount > 0)
+         {
+            console.log("ONNOW PROGRAMS NOT FOUND: ");
+         }
+         else
+         {
+            console.log("ONNOW PROGRAMS NOT FOUND: ");
+            var obj;   
+            fs.readFile('./jsons/onnowprograms.json', 'utf8', function (err, data) {
+            if (err) throw err;
+            onNowObj = JSON.parse(data);
+            if (onNowObj)
+            {
+               console.log("Saving the ONNOW object");
+               dbObj.collection('onnowprograms').save(onNowObj, function(err, records){
+               if (err) throw err;
+               console.log("ONNOW Added");
+               });
+            }
+            });
+         }
+      }
+   }
+   else
+   {
+      console.log("NO DB FOUND");
+   }
+   
+   res.writeHead(200, {'Content-Type': 'text/plain'});
+   res.end('Got Post Data');
+});
+
+//Uplaod an image to cloudinary
+// router.post('/upload',function(req, res){
+//    console.log("UPLOAD IMAGES");
+// 
+//    fs.readFile('./jsons/epgPrograms.json', 'utf8', function (err, data) {
+//    if (err) throw err;
+//    onNowObj = JSON.parse(data);
+//    if (onNowObj)
+//    {
+//       for(var tmsid in onNowObj)
+//       {
+//          var programs = onNowObj[tmsid]
+// 
+//          for(var index in programs)
+//          {  
+//             var program = programs[index];
+//             var imageSourceUrl = "your source URL" + program.details.programID;
+//             console.log("imageSourceUrl :", imageSourceUrl);
+//             var cloudinaryPath = "imageserver/program/"+program.details.programID
+//             console.log("cloudinaryPath :", cloudinaryPath);
+//             cloudinary.v2.uploader.upload(imageSourceUrl, {use_filename: true, public_id: cloudinaryPath},
+//             function(error, result){console.log(result)});   
+//          } 
+//       }
+//    }
+//    });
+//    res.writeHead(200, {'Content-Type': 'text/plain'});
+//    res.end('Got Post Data');
+// });
+
+// router.post('/uploadlogos',function(req, res){
+//    console.log("UPLOAD IMAGES");
+// 
+//    fs.readFile('./jsons/channelsv2.json', 'utf8', function (err, data) {
+//    if (err) throw err;
+//    onNowObj = JSON.parse(data);
+//    if (onNowObj)
+//    {
+//       for(var tmsid in onNowObj)
+//       {
+//          var channel = onNowObj[tmsid]
+//          var imageSourceUrl = channel.networkLogo + "?colorHybrid=true&height=100&width=100";
+//          console.log("imageSourceUrl :", imageSourceUrl);
+//          var cloudinaryPath = "imageserver/network/"+channel.channelID
+//          console.log("cloudinaryPath :", cloudinaryPath);
+//          cloudinary.v2.uploader.upload(imageSourceUrl, {use_filename: true, public_id: cloudinaryPath},
+//          function(error, result){console.log(result)});   
+//       }
+//    }
+//    });
+//    res.writeHead(200, {'Content-Type': 'text/plain'});
+//    res.end('Got Post Data');
+// });
+
+router.post('/prepareChannels',function(req, res){
+   console.log("UPLOAD IMAGES");
+   
+   var jsonData = [];
+   
+   fs.readFile('./jsons/epgPrograms.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      onNowObj = JSON.parse(data);
+   
+   
+      if (onNowObj)
+      {
+         for(var tmsid in onNowObj)
+         {
+            console.log("programs tmsid : ", tmsid);
+            for(var channelIndex in  channelsNewObj)
+            {
+               var channelTMSID = channelsNewObj[channelIndex].channelID;
+               if( channelTMSID ==  tmsid )
+               {
+                  console.log("MATCH FOUND FOR CHANNEL: ", channelTMSID);
+                  jsonData.push(channelsNewObj[channelIndex]);
+                  break;
+               }
+            }
+         }
+         
+         console.log("jsonData :", jsonData);
+      }
+   });
+   
+   res.writeHead(200, {'Content-Type': 'text/plain'});
+   res.end('Got Post Data');
+});
+
+//MORE REALTIME DATA COMING FROM THE EPG PROGRAMS.
+
+//ENTRY POINT
+router.get('/entrypoint/v2',function(req, res){
+   console.log("ENTRY POINT GET V2");    
+   
+   var obj;   
+   fs.readFile('./jsons/entrypointv2.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
+
+//MAIN MENU
+router.get('/entrypoint/v2/mainmenu',function(req, res){
+   console.log("MAIN MENU GET V2");    
+   
+   var obj;   
+   fs.readFile('./jsons/mainmenu.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
+
+//CHANNELS
+router.get('/entrypoint/v2/channels',function(req, res){
+   console.log("CHANNELS GET V2");    
+   
+   var obj;   
+   fs.readFile('./jsons/channelsv2.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
+
+//ENTRY POINT V2
+router.get('/entrypoint/v2/programs/onnow',function(req, res){
+   console.log("ENTRY POINT GET V2");    
+
+   fs.readFile('./jsons/epgPrograms.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      onNowObj = JSON.parse(data);
+      if (onNowObj)
+      {  
+         // processedOnNowObj = {}
+         // for(var tmsid in onNowObj)
+         // {
+         //    var programs = onNowObj[tmsid]
+         // 
+         //    for(var index in programs)
+         //    {  
+         //       var program = programs[index];
+         //    }
+      res.send(onNowObj); 
+      }
+   });
+});
+
 
 module.exports = router;
