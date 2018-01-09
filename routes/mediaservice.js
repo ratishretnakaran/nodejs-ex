@@ -15,6 +15,7 @@ var curr_year = d.getFullYear();
 currdate = curr_year+ "-" + curr_month + "-" + curr_date;
 var fs = require('fs');
 var channelsNewObj;
+var programsIdMap = {};
 
 var cloudinary = require('cloudinary');
 
@@ -24,6 +25,8 @@ cloudinary.config({
   api_secret: '' 
 });
 
+//Startup functions
+//prepareProgramsIDMap();
 
 fs.readFile('./jsons/channelsv2.json', 'utf8', function (err, data) {
    channelsNewObj = JSON.parse(data);
@@ -360,25 +363,78 @@ router.get('/entrypoint/v2/channels',function(req, res){
 //ENTRY POINT V2
 router.get('/entrypoint/v2/programs/onnow',function(req, res){
    console.log("ENTRY POINT GET V2");    
-
-   fs.readFile('./jsons/epgPrograms.json', 'utf8', function (err, data) {
-      if (err) throw err;
-      onNowObj = JSON.parse(data);
-      if (onNowObj)
-      {  
-         // processedOnNowObj = {}
-         // for(var tmsid in onNowObj)
-         // {
-         //    var programs = onNowObj[tmsid]
-         // 
-         //    for(var index in programs)
-         //    {  
-         //       var program = programs[index];
-         //    }
-      res.send(onNowObj); 
-      }
-   });
+   prepareProgramsOnNow(res);
 });
 
+function prepareProgramsOnNow(res)
+{
+   var programsOnNow = {};
+   
+   fs.readFile('./jsons/programsList.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      
+      programsList = JSON.parse(data);
+      var pgmOffset = 0;
+      for(var channelIndex in  channelsNewObj)
+      {
+         var programsForChannel = [];
+            
+         var programCounter = 0;
+         for (programIndex = 0; programIndex < 3; programIndex++)
+         {  
+            programsForChannel.push(programsList[programIndex + pgmOffset]);
+         }
+         pgmOffset = pgmOffset + 3;
+         programsOnNow[channelsNewObj[channelIndex].channelID] = programsForChannel;
+      }
+      
+      console.log("programsOnNow :", programsOnNow);
+      res.send(programsOnNow);
+   });      
+}
+
+
+//This function should be called say every 4 hours or when 
+// function prepareProgramSchedules(res)
+// {
+//    var programsOnNow = {};
+// 
+//    fs.readFile('./jsons/programsList.json', 'utf8', function (err, data) {
+//       if (err) throw err;
+// 
+//       programsList = JSON.parse(data);
+//       var pgmOffset = 0;
+//       for(var channelIndex in  channelsNewObj)
+//       {
+//          var programsForChannel = [];
+// 
+//          var programCounter = 0;
+//          for (programIndex = 0; programIndex < 3; programIndex++)
+//          {  
+//             programsForChannel.push(programsList[programIndex + pgmOffset]);
+//          }
+//          pgmOffset = pgmOffset + 3;
+//          programsOnNow[channelsNewObj[channelIndex].channelID] = programsForChannel;
+//       }
+// 
+//       console.log("programsOnNow :", programsOnNow);
+//       res.send(programsOnNow);
+//    });
+// }
+
+// function prepareProgramsIDMap()
+// {
+//    fs.readFile('./jsons/programsList.json', 'utf8', function (err, data) {
+//       if (err) throw err;
+// 
+//       programsList = JSON.parse(data);
+//       for (var programIndex in programsList)
+//       {  
+//          console.log("programIndex :", programIndex);
+//          programsIdMap[programsList[programIndex].programID] = programsList[programIndex];
+//       }
+//       console.log("programsIdMap :", programsIdMap);
+//    });   
+// }
 
 module.exports = router;

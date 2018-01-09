@@ -1,0 +1,5082 @@
+[
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH001152890000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH001152890000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News First",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 10800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH028084000000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH028084000000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Mornings On 1",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 9000,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH013762610000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH013762610000",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "CBS 2 News This Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Journalist Melena Ryzik.",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP015057881621",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP015057881621",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "CBS This Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A man is killed after desecrating a Hebrew treasure.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 11,
+      "Genres": [
+        "Crime",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000176170377",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000176170377",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 16,
+      "seriestitle": "Law & Order",
+      "startTimeSec": "",
+      "title": "Bible Story",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "An officer exacts revenge upon his friend's alleged killer.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 12,
+      "Genres": [
+        "Crime",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000176170385",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000176170385",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 16,
+      "seriestitle": "Law & Order",
+      "startTimeSec": "",
+      "title": "Family Friend",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A powerful sorceress casts a spell on Phoebe.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 19,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Crime",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP002741720164",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP002741720164",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Charmed",
+      "startTimeSec": "",
+      "title": "Freaky Phoebe",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Baby Wyatt's imaginary friend is actually the demon Vicus.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 20,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Crime",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP002741720166",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP002741720166",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Charmed",
+      "startTimeSec": "",
+      "title": "Imaginary Fiends",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000283740000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000283740000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Today in New York",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Golden Globes fashion with Olivia Culpo and Brad Goreski.",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP019152142699",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP019152142699",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Today",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH011324260000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH011324260000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Good Day Wake Up",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH011330640000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH011330640000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Good Day Wake Up 2",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000327960000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000327960000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Good Day New York",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Angie learns the family could be growing.",
+      "durationSec": 1920,
+      "endTimeSec": "",
+      "epsiodenumber": 1,
+      "Genres": [
+        "Comedy"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP004954790108",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP004954790108",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "seriestitle": "George Lopez",
+      "startTimeSec": "",
+      "title": "George's Mom Faces Hard Tambien",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Murray's high school free throw record is broken.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 23,
+      "Genres": [
+        "Comedy"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017396170020",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017396170020",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "The Goldbergs",
+      "startTimeSec": "",
+      "title": "Livin' on a Prayer",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Beverly intercepts the mix tape Adam made for Dana.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 1,
+      "Genres": [
+        "Comedy"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017396170024",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017396170024",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "The Goldbergs",
+      "startTimeSec": "",
+      "title": "Love Is a Mix Tape",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "SpongeBob and Patrick take a friendship test.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 24,
+      "Genres": [
+        "Kids & Family",
+        "Comedy",
+        "Sci-Fi/Fantasy",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP003077660470",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP003077660470",
+      "programType": "episode",
+      "rating": "TV-Y7",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "SpongeBob SquarePants",
+      "startTimeSec": "",
+      "title": "You Don't Know Sponge; Tunnel of Glove",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "SpongeBob, Patrick and Squidward are locked in a capsule.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 16,
+      "Genres": [
+        "Kids & Family",
+        "Comedy",
+        "Sci-Fi/Fantasy",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP003077660446",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP003077660446",
+      "programType": "episode",
+      "rating": "TV-Y7",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "SpongeBob SquarePants",
+      "startTimeSec": "",
+      "title": "Buried in Time; Enchanted Tiki Dreams",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A new neighbor moves into town and befriends Squidward.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 21,
+      "Genres": [
+        "Kids & Family",
+        "Comedy",
+        "Sci-Fi/Fantasy",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP003077660452",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP003077660452",
+      "programType": "episode",
+      "rating": "TV-Y7",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "SpongeBob SquarePants",
+      "startTimeSec": "",
+      "title": "New Fish in Town; Love That Squid",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 5400,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH009487870000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH009487870000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Eyewitness News This Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH009487870000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH009487870000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Eyewitness News This Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Jennifer Lopez; Alex Rodriguez; Lynda Lopez; Liam Neeson.",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000018938097",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000018938097",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Good Morning America",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Al returns a library book overdue for 30 years.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 1,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000028040095",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000028040095",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "Married ... With Children",
+      "startTimeSec": "",
+      "title": "He Thought He Could",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Peggy thinks Al's sweat stain looks like Elvis.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 2,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000028040096",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000028040096",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "Married ... With Children",
+      "startTimeSec": "",
+      "title": "I'm Going to Sweatland",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Kelly cheerleads to attract a football player.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 3,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000028040097",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000028040097",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "Married ... With Children",
+      "startTimeSec": "",
+      "title": "Poke High",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A full moon wrecks the men's fishing trip.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 4,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000028040094",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000028040094",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "Married ... With Children",
+      "startTimeSec": "",
+      "title": "The Camping Show",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Al decides to add his own private bathroom.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 5,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000028040098",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000028040098",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "Married ... With Children",
+      "startTimeSec": "",
+      "title": "A Dump of My Own",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Joey tries to regain eligibility for his health insurance.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 4,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP001151270133",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP001151270133",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "seriestitle": "Friends",
+      "startTimeSec": "",
+      "title": "The One Where Joey Loses His Insurance",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Joseph Prince reveals how to receive healing.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP011434541118",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP011434541118",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "seriestitle": "Joseph Prince",
+      "startTimeSec": "",
+      "title": "Freely Receive Your Healing: Part 1 of 1",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP008062772018",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP008062772018",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Andrew Wommack: Gospel Truth",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH001945440000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH001945440000",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Life Today With James Robison",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Identity theft protection: how LifeLock helps protect you.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH023752790000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH023752790000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "LifeLock Protection",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Cord-free vacuum,converts to hand vacuum;removable battery.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH022218740000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH022218740000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Shark IONFLEX DuoClean Cord-Free Vacuum",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "The Siemens Competition in math, science and technology.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 18,
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP005987610700",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP005987610700",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "seasonnumber": 15,
+      "startTimeSec": "",
+      "title": "Teen Kids News",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH022969270000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH022969270000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Back Pain Solved",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Airbrushed makeup made easy!",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH026286070000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH026286070000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "5 Makeup Tips 4 You",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH021533420000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH021533420000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Try Total Gym for $14.95",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A tyrant risks all to prevent democracy in his country.",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "Comedy",
+        "Movies"
+      ],
+      "hasCatchup": false,
+      "hasvod": true,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/MV003773670000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "MV003773670000",
+      "programType": "movie",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "The Dictator",
+      "year": "2012"
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH024105120000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH024105120000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "PIX11 Morning News at 5AM",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH018630150000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH018630150000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "PIX11 Morning News",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH018630150000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH018630150000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "PIX11 Morning News",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A wife is charged with killing her husband.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 12,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010228",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010228",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 10,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Lisa Gilliam",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A bullet is found in the head of a man's body.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 2,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010324",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010324",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Patricia Burney",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Clues lead to an ex-girlfriend and a secret marriage.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 3,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010325",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010325",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Maryann Castorena",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A secret relationship adds a twist to an investigation.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 4,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010326",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010326",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Erin Everett",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Jennifer Lawrence; Adam Sandler; Gary Oldman; Kate Winslet.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 1,
+      "Genres": [
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP020608720017",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP020608720017",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "startTimeSec": "",
+      "title": "Variety Studio: Actors on Actors",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Inez tells Creech her bike path should be shut down.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 2,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Reality",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP003618800128",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP003618800128",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 11,
+      "seriestitle": "Cyberchase",
+      "startTimeSec": "",
+      "title": "Creech's Creature Quandary",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "The Wild Kratts team discover a strange worldly castaway.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 18,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Reality",
+        "Reality",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP013451880095",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP013451880095",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "Wild Kratts",
+      "startTimeSec": "",
+      "title": "Aye Aye",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Elmo learns how to be patient as while sharing his scooter.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 6,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasvod": true,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000037862338",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000037862338",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 47,
+      "seriestitle": "Sesame Street",
+      "startTimeSec": "",
+      "title": "Elmo's Sweet Ride",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Difference between natural garbage and man-made garbage.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "Kids & Family",
+        "Comedy",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP013009920059",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP013009920059",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seriestitle": "The Cat in the Hat Knows a Lot About That!",
+      "startTimeSec": "",
+      "title": "Super Cleaner Uppers; Itty Bitty Water",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Squeeks wants to see baby sea turtles on the beach.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 3,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP022687710068",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP022687710068",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Nature Cat",
+      "startTimeSec": "",
+      "title": "Lights Out for Sea Turtles; Nature Art",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP005916490184",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP005916490184",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "First Look",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 10800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000213900443",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000213900443",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Morning Joe",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH007980480000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH007980480000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Worldwide Exchange",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 10800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH001598930000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH001598930000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Squawk Box",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 10800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH028084000000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH028084000000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Mornings On 1",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000452440000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000452440000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News All Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000452440000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000452440000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News All Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000452440000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000452440000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News All Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000452440000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000452440000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News All Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000452440000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000452440000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News All Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Journalist Melena Ryzik.",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP015057881621",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP015057881621",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "CBS This Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Teens' uninsured cars collide on the way to school.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 94,
+      "Genres": [
+        "Reality",
+        "Crime",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP019581180751",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP019581180751",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "seasonnumber": 4,
+      "seriestitle": "Hot Bench",
+      "startTimeSec": "",
+      "title": "Hydroplaning Disaster!; Cheap Shot to the Groin?!",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Dog dislocates its hip, and its original owner cries abuse.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 19,
+      "Genres": [
+        "Reality",
+        "Crime",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP019581180676",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP019581180676",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "seasonnumber": 4,
+      "seriestitle": "Hot Bench",
+      "startTimeSec": "",
+      "title": "Injured Dog Crying in Court?!; Burning Leaves Man?!",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 74,
+      "Genres": [
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP011761321123",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP011761321123",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 9,
+      "startTimeSec": "",
+      "title": "Let's Make a Deal",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 71,
+      "Genres": [
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000043721264",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000043721264",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "seasonnumber": 46,
+      "startTimeSec": "",
+      "title": "The Price Is Right",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Baby Wyatt's imaginary friend is actually the demon Vicus.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 20,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Crime",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP002741720166",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP002741720166",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Charmed",
+      "startTimeSec": "",
+      "title": "Imaginary Fiends",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Zankou tries to steal the Book of Shadows.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 21,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Crime",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP002741720165",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP002741720165",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Charmed",
+      "startTimeSec": "",
+      "title": "Death Becomes Them",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "An old friend asks Sam and Dean for help with a case.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 19,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007542310153",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007542310153",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Supernatural",
+      "startTimeSec": "",
+      "title": "Of Grave Importance",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Dick finds a hard drive that contains sensitive information.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 20,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007542310154",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007542310154",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Supernatural",
+      "startTimeSec": "",
+      "title": "The Girl With the Dungeons and Dragons Tattoo",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Golden Globes fashion with Olivia Culpo and Brad Goreski.",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP019152142699",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP019152142699",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Today",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Melissa Rivers; Robin Givhan; Natalie Morales; Brian Banks.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027467490076",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027467490076",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Megyn Kelly Today",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "TV personality Tyra Banks; Golden Globes party scenes.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP024689230366",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP024689230366",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Today With Kathie Lee & Hoda",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH018688900000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH018688900000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News 4 NY at 11AM",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000327960000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000327960000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Good Day New York",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH015910900000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH015910900000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Good Day New York",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Hot Topics; fashion at the Golden Globe Awards.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 65,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP010616541663",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP010616541663",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 10,
+      "startTimeSec": "",
+      "title": "The Wendy Williams Show",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Shaun T tells how to get rid of extra calories.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 69,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017518750603",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017518750603",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 4,
+      "seriestitle": "The Real",
+      "startTimeSec": "",
+      "title": "Shaun T Plays Eat It, Now Delete It",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Katie and her cat are trapped on a ski lift.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 10,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Action",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017649160021",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017649160021",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "PAW Patrol",
+      "startTimeSec": "",
+      "title": "Pups Save the Treats; Pups Get a Lift",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Sensei Yumi teaches all the Pups the ancient art of Pup-Fu.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 22,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Action",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017649160122",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017649160122",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "PAW Patrol",
+      "startTimeSec": "",
+      "title": "Pup-Fu!",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Alex sets up his own mini-patrol; Alex loses a tooth.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 6,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Action",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017649160185",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017649160185",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "PAW Patrol",
+      "startTimeSec": "",
+      "title": "Pups Save Alex's Mini-Patrol; Pups Save a Lost Tooth",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "The Bubble Guppies take the stage and learn about music.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 9,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP013642490009",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP013642490009",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Bubble Guppies",
+      "startTimeSec": "",
+      "title": "We Totally Rock!",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Molly, Gil and a duckling named Beep help a family of ducks.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 15,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP013642490046",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP013642490046",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Bubble Guppies",
+      "startTimeSec": "",
+      "title": "Bubble Duckies!",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "The pups need to get a sleepwalking bear back home.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 11,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Action",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017649160289",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017649160289",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 4,
+      "seriestitle": "PAW Patrol",
+      "startTimeSec": "",
+      "title": "Pups Save a Sleepwalking Bear; Pups Save Dude Ranch Danny",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Jennifer Lopez; Alex Rodriguez; Lynda Lopez; Liam Neeson.",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000018938097",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000018938097",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Good Morning America",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Liam Neeson; Molly Shannon; the Whole30 program.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 95,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP026844840181",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP026844840181",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Live with Kelly and Ryan",
+      "startTimeSec": "",
+      "title": "Jan-YOU-ary",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "What goes on backstage; bacon-and-onion rigatoni.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 76,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP008473332086",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP008473332086",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "seasonnumber": 12,
+      "seriestitle": "Rachael Ray",
+      "startTimeSec": "",
+      "title": "You're Getting an Inside Look at the Show Today, With a Backstage Pass to Our Prep Kitchen and Art Department: It's a Full Hour of Q and Ray",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Guest co-host Ana Navarro; Sen. Lindsey Graham (R-S.C.).",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 77,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP002253954920",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP002253954920",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 21,
+      "startTimeSec": "",
+      "title": "The View",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Rachel wants to get a marriage annulment.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 5,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP001151270134",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP001151270134",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "seriestitle": "Friends",
+      "startTimeSec": "",
+      "title": "The One With Joey's Porsche",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Chandler says a \"financial\" adios to Joey; Rachel moves.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 6,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP001151270135",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP001151270135",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "seriestitle": "Friends",
+      "startTimeSec": "",
+      "title": "The One on the Last Night",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Phoebe's jogging style attracts attention.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 7,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP001151270136",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP001151270136",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "seriestitle": "Friends",
+      "startTimeSec": "",
+      "title": "The One Where Phoebe Runs",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Ross bleaches his teeth but does not expect the outcome.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 8,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP001151270137",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP001151270137",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "seriestitle": "Friends",
+      "startTimeSec": "",
+      "title": "The One With Ross' Teeth",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Janine's attitude causes strife between Joey and friends.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 11,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP001151270142",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP001151270142",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "seriestitle": "Friends",
+      "startTimeSec": "",
+      "title": "The One With the Apothecary Table",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Ross and Chandler argue over the authorship of a joke.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 12,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP001151270144",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP001151270144",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "seriestitle": "Friends",
+      "startTimeSec": "",
+      "title": "The One With the Joke",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Dishing with the stars of Steven Spielberg's \"The Post.\"",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 90,
+      "Genres": [
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP014284731421",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP014284731421",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "startTimeSec": "",
+      "title": "Dish Nation",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000041750000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000041750000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "The 700 Club",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Neil deGrasse Tyson (\"StarTalk\"); pitcher Stacy Piagno.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 10,
+      "Genres": [
+        "Reality",
+        "Reality",
+        "Comedy",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP024739990178",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP024739990178",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Harry",
+      "startTimeSec": "",
+      "title": "National Geographic Channel's StarTalk Host Neil deGrasse Tyson, Red Carpet Looks for Less, Third Female Pitcher to Get Win",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A wife and a mistress battle for one man's heart.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 77,
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP024874280071",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP024874280071",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Dateline",
+      "startTimeSec": "",
+      "title": "Collision",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A tyrant risks all to prevent democracy in his country.",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "Comedy",
+        "Movies"
+      ],
+      "hasCatchup": false,
+      "hasvod": true,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/MV003773670000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "MV003773670000",
+      "programType": "movie",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "The Dictator",
+      "year": "2012"
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A former race-car driver must save his kidnapped wife.",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "Action",
+        "Thriller",
+        "Movies"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/MV004628240000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "MV004628240000",
+      "programType": "movie",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Getaway",
+      "year": "2013"
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Barney breaks the \"bro code\" and suffers the consequences.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 17,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007537960066",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007537960066",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "How I Met Your Mother",
+      "startTimeSec": "",
+      "title": "The Goat",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH018630150000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH018630150000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "PIX11 Morning News",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Detron's wife's baby doesn't have his signature trait.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 59,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP002830833726",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP002830833726",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 20,
+      "seriestitle": "Maury",
+      "startTimeSec": "",
+      "title": "My Niece Cheated On You ... That's Not Your Baby!",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Kiresha wants to let her ex's fiancee in on a secret.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 27,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP002830833198",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP002830833198",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Maury",
+      "startTimeSec": "",
+      "title": "The Tests Will Prove Your Fiance Got Me Pregnant!",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Cold feet have landed Manye in a heap of trouble.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 106,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000191865747",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000191865747",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 26,
+      "seriestitle": "Jerry Springer",
+      "startTimeSec": "",
+      "title": "Open Marriage Regrets",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A secret relationship adds a twist to an investigation.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 4,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010326",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010326",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Erin Everett",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Shocking secrets of witchcraft, poison and affairs.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 5,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010327",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010327",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Heather Miller",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A home invasion gone wrong turns into a twisted situation.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 6,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010328",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010328",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Amber Smith",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Teresa sends authorities on the hunt for two gunmen.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 7,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010329",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010329",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Teresa Burousas",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "George has fun skiing, snowshoeing and sledding.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 23,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP008466780023",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP008466780023",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Curious George",
+      "startTimeSec": "",
+      "title": "Ski Monkey; George the Grocer",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "George explores the airport while he waits for his flight.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 22,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP008466780022",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP008466780022",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Curious George",
+      "startTimeSec": "",
+      "title": "Curious George Takes a Vacation; Curious George and the One That Got Away",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Miss Elaina gets hurt during a game of astronauts.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 10,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP015507510052",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP015507510052",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Daniel Tiger's Neighborhood",
+      "startTimeSec": "",
+      "title": "Miss Elaina Gets Hurt; Daniel Feels Better",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Daniel is mad when he can't ride the trolley; stomping.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 11,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP015507510053",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP015507510053",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Daniel Tiger's Neighborhood",
+      "startTimeSec": "",
+      "title": "Daniel Can't Ride Trolley; Daniel Can't Get What He Wants",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Splash and Bubbles help Ripple find his brother.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 17,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP025097600022",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP025097600022",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Splash and Bubbles",
+      "startTimeSec": "",
+      "title": "Here Comes the Hammerhead; Denny's New Shell",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Ernie helps Elmo realize he can have fun in the bathtub.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 10,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasvod": true,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000037862342",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000037862342",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 47,
+      "seriestitle": "Sesame Street",
+      "startTimeSec": "",
+      "title": "Elmo Comes Clean",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 10800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000213900443",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000213900443",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Morning Joe",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP025291110312",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP025291110312",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "MSNBC Live With Stephanie Ruhle",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP025291200312",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP025291200312",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "MSNBC Live With Hallie Jackson",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027100890155",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027100890155",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "MSNBC Live with Velshi and Ruhle",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 10800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH001598930000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH001598930000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Squawk Box",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007980490460",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007980490460",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Squawk on the Street",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP019231860411",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP019231860411",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Squawk Alley",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000452440000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000452440000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News All Morning",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH028084030000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH028084030000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Live News at Noon",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000452450000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000452450000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News All Day",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000452450000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000452450000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News All Day",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH000452450000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH000452450000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "News All Day",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 71,
+      "Genres": [
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000043721264",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000043721264",
+      "programType": "episode",
+      "rating": "TV-G",
+      "reviewRating": 0,
+      "seasonnumber": 46,
+      "startTimeSec": "",
+      "title": "The Price Is Right",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH013762580000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH013762580000",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "CBS 2 News at Noon",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "J.T. keeps a secret; Dina surprises her family.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 89,
+      "Genres": [
+        "Drama",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000044225363",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000044225363",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 45,
+      "startTimeSec": "",
+      "title": "The Young and the Restless",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Steffy tells Bill that his ex-wife knows about their affair.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 76,
+      "Genres": [
+        "Drama",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000042175 885",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000042175885",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 31,
+      "startTimeSec": "",
+      "title": "The Bold and the Beautiful",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Actor Colin Hanks; Top Talker Kevin Frazier.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 73,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP013078551598",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP013078551598",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 8,
+      "startTimeSec": "",
+      "title": "The Talk",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Dick finds a hard drive that contains sensitive information.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 20,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007542310154",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007542310154",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Supernatural",
+      "startTimeSec": "",
+      "title": "The Girl With the Dungeons and Dragons Tattoo",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Meg contacts Dean and Sam with news about Castiel.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 21,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007542310155",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007542310155",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Supernatural",
+      "startTimeSec": "",
+      "title": "Reading Is Fundamental",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Dean and Sam need to find three items to defeat Dick Roman.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 22,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007542310156",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007542310156",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Supernatural",
+      "startTimeSec": "",
+      "title": "There Will Be Blood",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Sam and Dean prepare to battle Dick Roman.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 23,
+      "Genres": [
+        "Drama",
+        "Sci-Fi/Fantasy",
+        "Thriller",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007542310151",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007542310151",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "Supernatural",
+      "startTimeSec": "",
+      "title": "Survival of the Fittest",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH014229520000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH014229520000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "New York Live",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Stefan and Abigail have an awkward encounter.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 73,
+      "Genres": [
+        "Drama",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000011894622",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000011894622",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 53,
+      "startTimeSec": "",
+      "title": "Days of our Lives",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A recap of the Golden Globe Awards.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 73,
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP028390760015",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP028390760015",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 8,
+      "startTimeSec": "",
+      "title": "Access Live",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Dylan McDermott (\"LA to Vegas\"); Brooke Burke-Charvet.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 76,
+      "Genres": [
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027341750076",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027341750076",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "startTimeSec": "",
+      "title": "Steve",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Shaun T tells how to get rid of extra calories.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 69,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017518750603",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017518750603",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 4,
+      "seriestitle": "The Real",
+      "startTimeSec": "",
+      "title": "Shaun T Plays Eat It, Now Delete It",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 81,
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP024436430081",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP024436430081",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "startTimeSec": "",
+      "title": "Page Six TV",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 107,
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP009528283239",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP009528283239",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 11,
+      "startTimeSec": "",
+      "title": "TMZ",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "The use of antibiotics in animals to be used as meat; bloat.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 72,
+      "Genres": [
+        "Sports"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP011729911665",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP011729911665",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 9,
+      "seriestitle": "The Dr. Oz Show",
+      "startTimeSec": "",
+      "title": "Dr. Oz Investigates: America's Bacon Problem: Is the Pork Industry Lagging in Taking Out Antibiotics?",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Jaimie Alexander (\"Blindspot\"); Charlamagne Tha God.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 66,
+      "Genres": [
+        "Reality",
+        "Reality",
+        "Comedy",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP024739990234",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP024739990234",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Harry",
+      "startTimeSec": "",
+      "title": "Blindspot Star Jaimie Alexander, Top Chef Season 10 Winner Kristen Kish Whips Up Dish From Her New Cookbook, How to Save Money in 2018",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A satellite begins to fall toward Adventure Bay.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 26,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Action",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017649160252",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017649160252",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "PAW Patrol",
+      "startTimeSec": "",
+      "title": "Pups Save Floating Friends; Pups Save a Satellite",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Rusty turns Botasaur into an all-terrain vehicle.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 24,
+      "Genres": [
+        "Kids & Family",
+        "Sci-Fi/Fantasy",
+        "Action",
+        "Reality",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasvod": true,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP024536380052",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP024536380052",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Rusty Rivets",
+      "startTimeSec": "",
+      "title": "Rusty's Plant Predicament; Rusty's Beach Day Delay",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Timmy Turtle drops his new lunch box in the river.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 5,
+      "Genres": [
+        "Kids & Family",
+        "Action",
+        "Reality",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027960980005",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027960980005",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Top Wing",
+      "startTimeSec": "",
+      "title": "Lunch Box Rescue; Winging It",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Blaze, Starla and Darington want to play jungle ball.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 10,
+      "Genres": [
+        "Kids & Family",
+        "Sci-Fi/Fantasy",
+        "Action",
+        "Reality",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP020169630056",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP020169630056",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "Blaze and the Monster Machines",
+      "startTimeSec": "",
+      "title": "Toucan Do It!",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "The pups plan to race each other on Adventure Bay Race Day.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 23,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Action",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017649160044",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017649160044",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "PAW Patrol",
+      "startTimeSec": "",
+      "title": "Pups Great Race; Pups Take the Cake",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Ryder and the pups head to the jungle to help Carlos.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 15,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Action",
+        "Animation"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017649160225",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017649160225",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "PAW Patrol",
+      "startTimeSec": "",
+      "title": "Tracker Joins the Pups!",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Guest co-host Ana Navarro; Sen. Lindsey Graham (R-S.C.).",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 77,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP002253954920",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP002253954920",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 21,
+      "startTimeSec": "",
+      "title": "The View",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH022010090000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH022010090000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Eyewitness News at Noon",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Charles Esten; Joy Bauer with calorie-cutting tips.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 80,
+      "Genres": [
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP014092901343",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP014092901343",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 7,
+      "seriestitle": "The Chew",
+      "startTimeSec": "",
+      "title": "Gourmet Grab & Go",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 22,
+      "Genres": [
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP005200942772",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP005200942772",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 16,
+      "startTimeSec": "",
+      "title": "Who Wants to Be a Millionaire",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Rachel is worried about her sister's flirtation with Ross.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 13,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP001151270145",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP001151270145",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 6,
+      "seriestitle": "Friends",
+      "startTimeSec": "",
+      "title": "The One With Rachel's Sister",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Donna, Cleveland and his friends go to New York.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 15,
+      "Genres": [
+        "Comedy",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP010591100016",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP010591100016",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "The Cleveland Show",
+      "startTimeSec": "",
+      "title": "Once Upon a Tyne in New York",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Cleveland is wounded when he and Donna are mugged at an ATM.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 16,
+      "Genres": [
+        "Comedy",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP010591100017",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP010591100017",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "The Cleveland Show",
+      "startTimeSec": "",
+      "title": "Brown Knight",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Francine joins Steve for a live-action role-playing game.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 14,
+      "Genres": [
+        "Comedy",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007164450216",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007164450216",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 11,
+      "seriestitle": "American Dad",
+      "startTimeSec": "",
+      "title": "The Nova Centauris-burgh Board of Tourism Presents: American Dad",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Stan loses his faith after Steve questions the Bible.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 15,
+      "Genres": [
+        "Comedy",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007164450217",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007164450217",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 11,
+      "seriestitle": "American Dad",
+      "startTimeSec": "",
+      "title": "Daesong Heavy Industries",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Stan and Francine resort to primitive living.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 16,
+      "Genres": [
+        "Comedy",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007164450218",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007164450218",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 11,
+      "seriestitle": "American Dad",
+      "startTimeSec": "",
+      "title": "Daesong Heavy Industries II: Return to Innocence",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A wife and a mistress battle for one man's heart.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 77,
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP024874280071",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP024874280071",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Dateline",
+      "startTimeSec": "",
+      "title": "Collision",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A death in the military, thousands of miles from battle.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP024874280147",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP024874280147",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seriestitle": "Dateline",
+      "startTimeSec": "",
+      "title": "Deadly Ambush",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "\"Furious Over Getting Fleeced!\"",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 14,
+      "Genres": [
+        "Reality",
+        "Crime",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP002309632962",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP002309632962",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 21,
+      "startTimeSec": "",
+      "title": "The People's Court",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Friends get into a bar fight.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 22,
+      "Genres": [
+        "Reality",
+        "Crime",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP019581240158",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP019581240158",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Judge Faith",
+      "startTimeSec": "",
+      "title": "Best Friend Brawl",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Ted must face the consequences of breaking Stella's trust.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 18,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007537960067",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007537960067",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "How I Met Your Mother",
+      "startTimeSec": "",
+      "title": "Rebound Bro",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Barney and Abby realize they share a hatred of Ted.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 19,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007537960068",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007537960068",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "How I Met Your Mother",
+      "startTimeSec": "",
+      "title": "Everything Must Go",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "An accident causes Ted to re-evaluate his life.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 20,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007537960069",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007537960069",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "How I Met Your Mother",
+      "startTimeSec": "",
+      "title": "Miracles",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Stella responds to Ted's proposal; Barney has a realization.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 1,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007537960071",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007537960071",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 4,
+      "seriestitle": "How I Met Your Mother",
+      "startTimeSec": "",
+      "title": "Do I Know You?",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Marshall goes on a quest for the perfect burger.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 2,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP007537960070",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP007537960070",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 4,
+      "seriestitle": "How I Met Your Mother",
+      "startTimeSec": "",
+      "title": "The Best Burger in New York",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Molly and Mike reveal important news to each other.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 23,
+      "Genres": [
+        "Comedy",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP012800400067",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP012800400067",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "Mike & Molly",
+      "startTimeSec": "",
+      "title": "Windy City",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Cold feet have landed Manye in a heap of trouble.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 106,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000191865747",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP000191865747",
+      "programType": "episode",
+      "rating": "TV-14",
+      "reviewRating": 0,
+      "seasonnumber": 26,
+      "seriestitle": "Jerry Springer",
+      "startTimeSec": "",
+      "title": "Open Marriage Regrets",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Wife may get more than just packages from the delivery man.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 52,
+      "Genres": [
+        "Reality",
+        "Crime",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027486760052",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027486760052",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Couples Court With the Cutlers",
+      "startTimeSec": "",
+      "title": "Turner vs. Turner",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A man believes his wife sent nude photos to other men.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 44,
+      "Genres": [
+        "Reality",
+        "Crime",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027486760044",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027486760044",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Couples Court With the Cutlers",
+      "startTimeSec": "",
+      "title": "Bacon vs. Bacon",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A New York woman poisons her 5-year-old to death with salt.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 86,
+      "Genres": [
+        "Crime",
+        "Crime",
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP024971070287",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP024971070287",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Crime Watch Daily With Chris Hansen",
+      "startTimeSec": "",
+      "title": "Killer Cop?; America's Most Evil Mom?",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 143,
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027488050143",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027488050143",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "startTimeSec": "",
+      "title": "DailyMailTV",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Teresa sends authorities on the hunt for two gunmen.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 7,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010329",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010329",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Teresa Burousas",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "A wealthy socialite and a Midwestern woman.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 8,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010330",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010330",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Poisonous Love",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "The suspicious death of Eric leaves many questions.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 9,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010332",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010332",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Katrina Ben",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Lynette's ex-boyfriend is shot during a custody dispute.",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "epsiodenumber": 10,
+      "Genres": [
+        "Drama",
+        "Crime",
+        "Reality",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP006794010331",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP006794010331",
+      "programType": "episode",
+      "rating": "TV-PG",
+      "reviewRating": 0,
+      "seasonnumber": 17,
+      "seriestitle": "Snapped",
+      "startTimeSec": "",
+      "title": "Lynette Pontius",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Mindy worries about the addition of a younger sibling.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 21,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP023305860022",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP023305860022",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Ready Jet Go!",
+      "startTimeSec": "",
+      "title": "So Many Moons; Project Pluto",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "The kids learn about waterfalls; ride over the ocean.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 12,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Comedy",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP011702490298",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP011702490298",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 3,
+      "seriestitle": "Dinosaur Train",
+      "startTimeSec": "",
+      "title": "Zeppelin Waterfall; Zeppelin: Atoll",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "George Washington Carver's peanut-based inventions.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 17,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017817780145",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP017817780145",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 2,
+      "seriestitle": "Peg Plus Cat",
+      "startTimeSec": "",
+      "title": "The Peanut Problem; More Adventures of Robin Hood",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "Carlos Watson hosts debates covering national topics.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 7,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027301530007",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027301530007",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "startTimeSec": "",
+      "title": "Third Rail With OZY",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 20,
+      "Genres": [
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP028378080020",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP028378080020",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "startTimeSec": "",
+      "title": "Amanpour on PBS",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "George has fun skiing, snowshoeing and sledding.",
+      "durationSec": 1800,
+      "endTimeSec": "",
+      "epsiodenumber": 23,
+      "Genres": [
+        "Kids & Family",
+        "Reality",
+        "Animation",
+        "TV Shows"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP008466780023",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP008466780023",
+      "programType": "episode",
+      "rating": "TV-Y",
+      "reviewRating": 0,
+      "seasonnumber": 1,
+      "seriestitle": "Curious George",
+      "startTimeSec": "",
+      "title": "Ski Monkey; George the Grocer",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027100890155",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027100890155",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "MSNBC Live with Velshi and Ruhle",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "Reality",
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP011659250282",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP011659250282",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Andrea Mitchell Reports",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP025291140350",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP025291140350",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "MSNBC Live With Craig Melvin",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP027429830121",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP027429830121",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "MSNBC Live With Katy Tur",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP019231860411",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "EP019231860411",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Squawk Alley",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 3600,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH012305400000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH012305400000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Fast Money Halftime Report",
+      "year": null
+    },
+    "type": "event"
+  },
+  {
+    "details": {
+      "description": "",
+      "durationSec": 7200,
+      "endTimeSec": "",
+      "Genres": [
+        "News & Weather",
+        "Reality",
+        "News & Weather",
+        "Reality"
+      ],
+      "hasCatchup": false,
+      "hasVod": false,
+      "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH001728380000",
+      "isHD": true,
+      "language": "ENG",
+      "programID": "SH001728380000",
+      "programType": "episode",
+      "rating": null,
+      "reviewRating": 0,
+      "startTimeSec": "",
+      "title": "Power Lunch",
+      "year": null
+    },
+    "type": "event"
+  }
+]
