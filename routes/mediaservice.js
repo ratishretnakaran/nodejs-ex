@@ -16,6 +16,7 @@ currdate = curr_year+ "-" + curr_month + "-" + curr_date;
 var fs = require('fs');
 var channelsNewObj;
 var programsIdMap = {};
+var collectionItemCount = 0;
 
 var cloudinary = require('cloudinary');
 
@@ -27,6 +28,64 @@ cloudinary.config({
 
 //Startup functions
 //prepareProgramsIDMap();
+setTimeout(preparePgmDbList, 6000);
+
+function preparePgmDbList(){
+   
+
+   var milliseconds = d.getTime();
+   var exitLoop = false;
+   var collectionExists = false
+
+   fs.readFile('./jsons/programsList.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      dbObj = persistObj.getDB()
+      dbObj.collections(function(e, cols) {
+         cols.forEach(function(col) {
+            if (col.collectionName == "programDataBase")
+            {
+               collectionExists = true;
+            }
+         });
+      });
+      
+      if (collectionExists = false)
+      {
+         programsList = JSON.parse(data);
+         var pgmOffset = 0;
+         for(var channelIndex in  channelsNewObj)
+         {
+            var programsForChannel = [];
+            var programsOnNow = {};
+            var startTime = milliseconds;
+            collectionItemCount = collectionItemCount + 1;
+            for (programIndex = 0; programIndex < 10; programIndex++)
+            {   
+               program = programsList[programIndex + pgmOffset]
+               if (program){
+               program.details.startTimeSec = startTime
+               startTime = startTime + program.details.durationSec
+               programsForChannel.push(program);
+               }else{
+                  exitLoop = true;
+                  break;
+               }
+            }
+            pgmOffset = pgmOffset + 10;
+            programsOnNow = {"channelId":channelsNewObj[channelIndex].channelID, "programs":programsForChannel};
+            dbObj.collection('programDataBase').save(programsOnNow, function(err, records){
+               if (err) throw err;
+               console.log("programs added to Channel",channelsNewObj[channelIndex].channelID);
+            });
+            if (exitLoop)
+            {break;}
+         }
+      }
+      console.log("");
+   //setInterval(updatePgmDbList, 2500);
+   });      
+}
+
 
 fs.readFile('./jsons/channelsv2.json', 'utf8', function (err, data) {
    channelsNewObj = JSON.parse(data);
@@ -363,7 +422,8 @@ router.get('/entrypoint/v2/channels',function(req, res){
 //ENTRY POINT V2
 router.get('/entrypoint/v2/programs/onnow',function(req, res){
    console.log("ENTRY POINT GET V2");    
-   prepareProgramsOnNow(res);
+   //prepareProgramsOnNow(res);
+   prepare(res, onProgramNowAvailable);
 });
 
 function prepareProgramsOnNow(res)
@@ -378,8 +438,7 @@ function prepareProgramsOnNow(res)
       for(var channelIndex in  channelsNewObj)
       {
          var programsForChannel = [];
-            
-         var programCounter = 0;
+         
          for (programIndex = 0; programIndex < 3; programIndex++)
          {  
             programsForChannel.push(programsList[programIndex + pgmOffset]);
@@ -392,6 +451,33 @@ function prepareProgramsOnNow(res)
       res.send(programsOnNow);
    });      
 }
+
+function prepare(res, callback)
+{
+   var programsOnNow = {};
+   dbObj = persistObj.getDB();
+   var count = 0;
+   var pgmDBCollectionCount = dbObj.collection('programDataBase').find().count();
+
+    dbObj = persistObj.getDB();
+   dbObj.collection('programDataBase').find().forEach(function(doc){
+      programsOnNow[doc.channelId] = doc.programs;
+      count = count + 1;
+      console.log(count);
+      if (count == collectionItemCount)
+      {
+         callback(res, programsOnNow);
+      }
+         
+   });
+
+}
+
+function onProgramNowAvailable(res, programsOnNow)
+{
+   res.send(programsOnNow);
+}
+
 
 
 //This function should be called say every 4 hours or when 
