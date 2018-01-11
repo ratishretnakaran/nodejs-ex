@@ -40,53 +40,50 @@ function preparePgmDbList(){
    fs.readFile('./jsons/v2/programsList.json', 'utf8', function (err, data) {
       if (err) throw err;
       dbObj = persistObj.getDB();
-      dbObj.collections(function(e, cols) {
-         cols.forEach(function(col) {
-            if (col.collectionName == "programDataBase")
+
+      dbObj.listCollections({name:'programDataBase'}).next(function(err, collInfo){
+         if(!collInfo)
+         {
+            console.log("Doesn't it exists--creating one");
+            programsList = JSON.parse(data);
+            var pgmOffset = 0;
+            for(var channelIndex in  channelsNewObj)
             {
-               collectionExists = true;
+               var programsForChannel = [];
+               var programsOnNow = {};
+               var startTime = milliseconds;
+               collectionItemCount = collectionItemCount + 1;
+               for (programIndex = 0; programIndex < 10; programIndex++)
+               {   
+                  program = programsList[programIndex + pgmOffset]
+                  if (program){
+                  program.details.startTimeSec = startTime;
+                  startTime = startTime + program.details.durationSec;
+                  programsForChannel.push(program);
+                  }else{
+                     exitLoop = true;
+                     break;
+                  }
+               }
+               pgmOffset = pgmOffset + 10;
+               programsOnNow = {"channelId":channelsNewObj[channelIndex].channelID, "programs":programsForChannel};
+               dbObj.collection('programDataBase').save(programsOnNow, function(err, records){
+                  if (err) throw err;
+                  console.log("programs added to Channel",channelsNewObj[channelIndex].channelID);
+               });
+               if (exitLoop)
+               {break;}
             }
-         });
+         }
+         else
+         {
+            setCount('programDataBase',function(err, count){
+               if (err) throw err;
+               collectionItemCount = count;
+            });
+         }
       });
       
-      if (collectionExists = false)
-      {
-         programsList = JSON.parse(data);
-         var pgmOffset = 0;
-         for(var channelIndex in  channelsNewObj)
-         {
-            var programsForChannel = [];
-            var programsOnNow = {};
-            var startTime = milliseconds;
-            collectionItemCount = collectionItemCount + 1;
-            for (programIndex = 0; programIndex < 10; programIndex++)
-            {   
-               program = programsList[programIndex + pgmOffset]
-               if (program){
-               program.details.startTimeSec = startTime
-               startTime = startTime + program.details.durationSec
-               programsForChannel.push(program);
-               }else{
-                  exitLoop = true;
-                  break;
-               }
-            }
-            pgmOffset = pgmOffset + 10;
-            programsOnNow = {"channelId":channelsNewObj[channelIndex].channelID, "programs":programsForChannel};
-            dbObj.collection('programDataBase').save(programsOnNow, function(err, records){
-               if (err) throw err;
-               console.log("programs added to Channel",channelsNewObj[channelIndex].channelID);
-            });
-            if (exitLoop)
-            {break;}
-         }
-      }
-      else {
-         setCount('programDataBase',function(err, count){
-            if (err) throw err;
-            collectionItemCount = count;
-         });
-      }
       console.log("");
    //setInterval(updatePgmDbList, 2500);
    });      
