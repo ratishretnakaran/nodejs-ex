@@ -1,0 +1,83 @@
+{
+  "title": "Entry Points",
+  "childNodes": [
+    {
+      "context": "mainMenu",
+      "details": {
+        "actionParams": [
+          {
+            "type": "URL",
+            "value": "/entrypoint/v1/mainmenu",
+            "replaceString": "",
+            "replaceType": ""
+          }
+        ]
+      }
+    },
+    {
+      "context": "eventDetail",
+      "details": {
+        "actionParams": [
+          {
+            "type": "URL",
+            "value": "/entrypoint/v1/event/{mediaID}",
+            "replaceString": "{mediaID}",
+            "replaceType": "mediaID"
+          }
+        ]
+      }
+    },
+    {
+      "context": "onDemand",
+      "details": {
+        "actionParams": [
+          {
+            "type": "URL",
+            "value": "/entrypoint/v1/ondemand",
+            "replaceString": "",
+            "replaceType": ""
+          }
+        ]
+      }
+    },
+    {
+      "context": "channelList",
+      "details": {
+        "actionParams": [
+          {
+            "type": "URL",
+            "value": "/entrypoint/v1/channels",
+            "replaceString": "",
+            "replaceType": ""
+          }
+        ]
+      }
+    },
+    {
+      "context": "programData",
+      "details": {
+        "actionParams": [
+          {
+            "type": "URL",
+            "value": "/entrypoint/v1/programs",
+            "replaceString": "",
+            "replaceType": ""
+          }
+        ]
+      }
+    },
+    {
+      "context": "programsNow",
+      "details": {
+        "actionParams": [
+          {
+            "type": "URL",
+            "value": "/entrypoint/v1/programs/onnow",
+            "replaceString": "",
+            "replaceType": ""
+          }
+        ]
+      }
+    }
+  ]
+}

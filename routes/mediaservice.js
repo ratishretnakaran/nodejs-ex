@@ -37,9 +37,9 @@ function preparePgmDbList(){
    var exitLoop = false;
    var collectionExists = false
 
-   fs.readFile('./jsons/programsList.json', 'utf8', function (err, data) {
+   fs.readFile('./jsons/v2/programsList.json', 'utf8', function (err, data) {
       if (err) throw err;
-      dbObj = persistObj.getDB()
+      dbObj = persistObj.getDB();
       dbObj.collections(function(e, cols) {
          cols.forEach(function(col) {
             if (col.collectionName == "programDataBase")
@@ -81,13 +81,28 @@ function preparePgmDbList(){
             {break;}
          }
       }
+      else {
+         setCount('programDataBase',function(err, count){
+            if (err) throw err;
+            collectionItemCount = count;
+         });
+      }
       console.log("");
    //setInterval(updatePgmDbList, 2500);
    });      
 }
 
+//Function to set the count of collections
+function setCount(collectionName, callback)
+{
+   dbObj = persistObj.getDB();
+   dbObj.collection(collectionName).count({}, function(err, count){
+      if (err) throw err;
+      callback(null, count);
+   });
+}
 
-fs.readFile('./jsons/channelsv2.json', 'utf8', function (err, data) {
+fs.readFile('./jsons/v2/channelsv2.json', 'utf8', function (err, data) {
    channelsNewObj = JSON.parse(data);
    console.log("Prepared channelsNewObj");
 });
@@ -188,7 +203,7 @@ router.get('/entrypoint/v1',function(req, res){
    console.log("ENTRY POINT GET");    
    
    var obj;   
-   fs.readFile('./jsons/entrypoint.json', 'utf8', function (err, data) {
+   fs.readFile('./jsons/v1/entrypoint.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
       res.send(obj);
@@ -212,7 +227,7 @@ router.get('/entrypoint/v1/channels',function(req, res){
    console.log("CHANNELS GET");    
    
    var obj;   
-   fs.readFile('./jsons/channels.json', 'utf8', function (err, data) {
+   fs.readFile('./jsons/v1/channels.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
       res.send(obj);
@@ -224,7 +239,7 @@ router.get('/entrypoint/v1/programs/onnow',function(req, res){
    console.log("ON NOW GET");    
    
    var obj;   
-   fs.readFile('./jsons/onnowprograms.json', 'utf8', function (err, data) {
+   fs.readFile('./jsons/v1/onnowprograms.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
       res.send(obj);
@@ -237,90 +252,13 @@ router.get('/entrypoint/v1/event',function(req, res){
    console.log("EVENT DETAIL GET");    
    
    var obj;   
-   fs.readFile('./jsons/eventdetail.json', 'utf8', function (err, data) {
+   fs.readFile('./jsons/v1/eventdetail.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
       res.send(obj);
    });
 });
 
-//UPDATE PROGRAMS
-router.post('/entrypoint/v1/programs/onnow/update',function(req, res){
-   console.log("ON NOW GET");    
-   
-   //first check if there is a collection for onnow programs
-   dbObj = persistObj.getDB()        
-   if (dbObj)
-   {
-      console.log("DB EXISTS")
-      //var ObjectId = require('mongodb').ObjectID;
-      var onNowCollection = dbObj.collection('onnowprograms')
-      if (onNowCollection)
-      {
-         console.log("onNowCollection EXISTS....");
-         //console.log(onNowCollection);
-         onnowProgramsCount = onNowCollection.count();
-         if (onnowProgramsCount > 0)
-         {
-            console.log("ONNOW PROGRAMS NOT FOUND: ");
-         }
-         else
-         {
-            console.log("ONNOW PROGRAMS NOT FOUND: ");
-            var obj;   
-            fs.readFile('./jsons/onnowprograms.json', 'utf8', function (err, data) {
-            if (err) throw err;
-            onNowObj = JSON.parse(data);
-            if (onNowObj)
-            {
-               console.log("Saving the ONNOW object");
-               dbObj.collection('onnowprograms').save(onNowObj, function(err, records){
-               if (err) throw err;
-               console.log("ONNOW Added");
-               });
-            }
-            });
-         }
-      }
-   }
-   else
-   {
-      console.log("NO DB FOUND");
-   }
-   
-   res.writeHead(200, {'Content-Type': 'text/plain'});
-   res.end('Got Post Data');
-});
-
-//Uplaod an image to cloudinary
-// router.post('/upload',function(req, res){
-//    console.log("UPLOAD IMAGES");
-// 
-//    fs.readFile('./jsons/epgPrograms.json', 'utf8', function (err, data) {
-//    if (err) throw err;
-//    onNowObj = JSON.parse(data);
-//    if (onNowObj)
-//    {
-//       for(var tmsid in onNowObj)
-//       {
-//          var programs = onNowObj[tmsid]
-// 
-//          for(var index in programs)
-//          {  
-//             var program = programs[index];
-//             var imageSourceUrl = "your source URL" + program.details.programID;
-//             console.log("imageSourceUrl :", imageSourceUrl);
-//             var cloudinaryPath = "imageserver/program/"+program.details.programID
-//             console.log("cloudinaryPath :", cloudinaryPath);
-//             cloudinary.v2.uploader.upload(imageSourceUrl, {use_filename: true, public_id: cloudinaryPath},
-//             function(error, result){console.log(result)});   
-//          } 
-//       }
-//    }
-//    });
-//    res.writeHead(200, {'Content-Type': 'text/plain'});
-//    res.end('Got Post Data');
-// });
 
 // router.post('/uploadlogos',function(req, res){
 //    console.log("UPLOAD IMAGES");
@@ -346,41 +284,6 @@ router.post('/entrypoint/v1/programs/onnow/update',function(req, res){
 //    res.end('Got Post Data');
 // });
 
-router.post('/prepareChannels',function(req, res){
-   console.log("UPLOAD IMAGES");
-   
-   var jsonData = [];
-   
-   fs.readFile('./jsons/epgPrograms.json', 'utf8', function (err, data) {
-      if (err) throw err;
-      onNowObj = JSON.parse(data);
-   
-   
-      if (onNowObj)
-      {
-         for(var tmsid in onNowObj)
-         {
-            console.log("programs tmsid : ", tmsid);
-            for(var channelIndex in  channelsNewObj)
-            {
-               var channelTMSID = channelsNewObj[channelIndex].channelID;
-               if( channelTMSID ==  tmsid )
-               {
-                  console.log("MATCH FOUND FOR CHANNEL: ", channelTMSID);
-                  jsonData.push(channelsNewObj[channelIndex]);
-                  break;
-               }
-            }
-         }
-         
-         console.log("jsonData :", jsonData);
-      }
-   });
-   
-   res.writeHead(200, {'Content-Type': 'text/plain'});
-   res.end('Got Post Data');
-});
-
 //MORE REALTIME DATA COMING FROM THE EPG PROGRAMS.
 
 //ENTRY POINT
@@ -388,7 +291,7 @@ router.get('/entrypoint/v2',function(req, res){
    console.log("ENTRY POINT GET V2");    
    
    var obj;   
-   fs.readFile('./jsons/entrypointv2.json', 'utf8', function (err, data) {
+   fs.readFile('./jsons/v2/entrypointv2.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
       res.send(obj);
@@ -412,7 +315,7 @@ router.get('/entrypoint/v2/channels',function(req, res){
    console.log("CHANNELS GET V2");    
    
    var obj;   
-   fs.readFile('./jsons/channelsv2.json', 'utf8', function (err, data) {
+   fs.readFile('./jsons/v2/channelsv2.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
       res.send(obj);
@@ -422,37 +325,11 @@ router.get('/entrypoint/v2/channels',function(req, res){
 //ENTRY POINT V2
 router.get('/entrypoint/v2/programs/onnow',function(req, res){
    console.log("ENTRY POINT GET V2");    
-   //prepareProgramsOnNow(res);
-   prepare(res, onProgramNowAvailable);
+
+   prepareProgramsOnNow(res, onProgramNowAvailable);
 });
 
-function prepareProgramsOnNow(res)
-{
-   var programsOnNow = {};
-   
-   fs.readFile('./jsons/programsList.json', 'utf8', function (err, data) {
-      if (err) throw err;
-      
-      programsList = JSON.parse(data);
-      var pgmOffset = 0;
-      for(var channelIndex in  channelsNewObj)
-      {
-         var programsForChannel = [];
-         
-         for (programIndex = 0; programIndex < 3; programIndex++)
-         {  
-            programsForChannel.push(programsList[programIndex + pgmOffset]);
-         }
-         pgmOffset = pgmOffset + 3;
-         programsOnNow[channelsNewObj[channelIndex].channelID] = programsForChannel;
-      }
-      
-      console.log("programsOnNow :", programsOnNow);
-      res.send(programsOnNow);
-   });      
-}
-
-function prepare(res, callback)
+function prepareProgramsOnNow(res, callback)
 {
    var programsOnNow = {};
    dbObj = persistObj.getDB();
@@ -461,9 +338,9 @@ function prepare(res, callback)
 
     dbObj = persistObj.getDB();
    dbObj.collection('programDataBase').find().forEach(function(doc){
-      programsOnNow[doc.channelId] = doc.programs;
+      programsOnNow[doc.channelId] = doc.programs.slice(0,3);
       count = count + 1;
-      console.log(count);
+      console.log(count,collectionItemCount);
       if (count == collectionItemCount)
       {
          callback(res, programsOnNow);
@@ -478,49 +355,25 @@ function onProgramNowAvailable(res, programsOnNow)
    res.send(programsOnNow);
 }
 
+router.get('/entrypoint/v2/schedule/:channelId', function(req, res){
 
+   console.log(req.params.channelId);
+   dbObj = persistObj.getDB();
+   var col = dbObj.collection('programDataBase');
 
-//This function should be called say every 4 hours or when 
-// function prepareProgramSchedules(res)
-// {
-//    var programsOnNow = {};
-// 
-//    fs.readFile('./jsons/programsList.json', 'utf8', function (err, data) {
-//       if (err) throw err;
-// 
-//       programsList = JSON.parse(data);
-//       var pgmOffset = 0;
-//       for(var channelIndex in  channelsNewObj)
-//       {
-//          var programsForChannel = [];
-// 
-//          var programCounter = 0;
-//          for (programIndex = 0; programIndex < 3; programIndex++)
-//          {  
-//             programsForChannel.push(programsList[programIndex + pgmOffset]);
-//          }
-//          pgmOffset = pgmOffset + 3;
-//          programsOnNow[channelsNewObj[channelIndex].channelID] = programsForChannel;
-//       }
-// 
-//       console.log("programsOnNow :", programsOnNow);
-//       res.send(programsOnNow);
-//    });
-// }
+   // Show that duplicate records got dropped
 
-// function prepareProgramsIDMap()
-// {
-//    fs.readFile('./jsons/programsList.json', 'utf8', function (err, data) {
-//       if (err) throw err;
-// 
-//       programsList = JSON.parse(data);
-//       for (var programIndex in programsList)
-//       {  
-//          console.log("programIndex :", programIndex);
-//          programsIdMap[programsList[programIndex].programID] = programsList[programIndex];
-//       }
-//       console.log("programsIdMap :", programsIdMap);
-//    });   
-// }
+   col.find({channelId:req.params.channelId}).toArray(function(err, items) {
+   if(err) throw err;
+   if (items[0])
+   {
+      res.send(items[0].programs);
+   }else{
+      res.send({});
+   }
+   });
+   
+});
+
 
 module.exports = router;

@@ -1,0 +1,477 @@
+{
+  "CH0000104": [
+    {
+      "details": {
+        "description": "A king, a warrior and a wizard battle hulking orc invaders.",
+        "durationSec": 7800,
+        "endTimeSec": "1513191600",
+        "Genres": [
+          "Sci-Fi/Fantasy",
+          "Action",
+          "Action",
+          "Movies"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/MV007728060000",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "MV007728060000",
+        "programType": "MOVIE",
+        "rating": "PG-13",
+        "startTimeSec": "1513183800",
+        "title": "Warcraft",
+        "year": "2016",
+        "hasCatchup": true,
+        "hasVod": false,
+        "reviewRating": 2.5
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "A woman and her daughter move into a creepy building.",
+        "durationSec": 6300,
+        "endTimeSec": "1513197900",
+        "Genres": [
+          "Thriller",
+          "Thriller",
+          "Movies"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/MV001595300000",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "MV001595300000",
+        "programType": "MOVIE",
+        "rating": "PG-13",
+        "startTimeSec": "1513191600",
+        "title": "Dark Water",
+        "year": "2005",
+        "hasCatchup": false,
+        "hasVod": true,
+        "reviewRating": 3.5
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "A videotape holds deadly consequences for its viewers.",
+        "durationSec": 7200,
+        "endTimeSec": "1513205100",
+        "Genres": [
+          "Thriller",
+          "Thriller",
+          "Movies"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/MV001186220000",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "MV001186220000",
+        "programType": "MOVIE",
+        "rating": "PG-13",
+        "startTimeSec": "1513197900",
+        "title": "The Ring",
+        "year": "2002",
+        "hasCatchup": true,
+        "hasVod": false,
+        "reviewRating": 4.5
+      },
+      "type": "event"
+    }
+  ],
+  "CH000011": [
+    {
+      "details": {
+        "description": "Earl returns from rehab, hoping to rebuild his life.",
+        "durationSec": 3600,
+        "endTimeSec": "1513191600",
+        "epsiodeNumber": 2,
+        "Genres": [
+          "Reality",
+          "Reality",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP011934460149",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP011934460149",
+        "programType": "EPISODE",
+        "rating": "TV-PG",
+        "seasonNumber": 8,
+        "seriesTitle": "Pit Bulls and Parolees",
+        "startTimeSec": "1513188000",
+        "title": "Redeemed",
+        "hasCatchup": false,
+        "hasVod": true,
+        "reviewRating": 4.5
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "Tia's injury holds her back; Mike struggles to balance.",
+        "durationSec": 3600,
+        "endTimeSec": "1513195200",
+        "epsiodeNumber": 7,
+        "Genres": [
+          "Reality",
+          "Reality",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP011934460154",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP011934460154",
+        "programType": "EPISODE",
+        "rating": "TV-PG",
+        "seasonNumber": 8,
+        "seriesTitle": "Pit Bulls and Parolees",
+        "startTimeSec": "1513191600",
+        "title": "Pushing Forward",
+        "hasCatchup": false,
+        "hasVod": false,
+        "reviewRating": 4
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "The Villalobos team helps Louisiana flood victims.",
+        "durationSec": 3600,
+        "endTimeSec": "1513198800",
+        "epsiodeNumber": 3,
+        "Genres": [
+          "Reality",
+          "Reality",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP011934460150",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP011934460150",
+        "programType": "EPISODE",
+        "rating": "TV-PG",
+        "seasonNumber": 8,
+        "seriesTitle": "Pit Bulls and Parolees",
+        "startTimeSec": "1513195200",
+        "title": "Kindness of Strangers",
+        "hasCatchup": false,
+        "hasVod": true,
+        "reviewRating": 2.5
+      },
+      "type": "event"
+    }
+  ],
+  "CH00002": [
+    {
+      "details": {
+        "description": "Holiday food in Manhattan; a meal from two delicious dishes.",
+        "durationSec": 3600,
+        "endTimeSec": "1513191600",
+        "epsiodeNumber": 70,
+        "Genres": [
+          "Reality",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP014092901333",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP014092901333",
+        "programType": "EPISODE",
+        "rating": "TV-PG",
+        "seasonNumber": 7,
+        "seriesTitle": "The Chew",
+        "startTimeSec": "1513188000",
+        "title": "Holidays Across America",
+        "hasCatchup": false,
+        "hasVod": false,
+        "reviewRating": 4.5
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "",
+        "durationSec": 1800,
+        "endTimeSec": "1513193400",
+        "epsiodeNumber": 83,
+        "Genres": [
+          "Reality",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP005200942833",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP005200942833",
+        "programType": "EPISODE",
+        "rating": "TV-PG",
+        "seasonNumber": 16,
+        "seriesTitle": "Who Wants to Be a Millionaire",
+        "startTimeSec": "1513191600",
+        "title": "",
+        "hasCatchup": true,
+        "hasVod": false,
+        "reviewRating": 3
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "",
+        "durationSec": 1800,
+        "endTimeSec": "1513195200",
+        "epsiodeNumber": 161,
+        "Genres": [
+          "News & Weather",
+          "News & Weather",
+          "Reality",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP014422403672",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP014422403672",
+        "programType": "EPISODE",
+        "rating": "",
+        "seasonNumber": 7,
+        "seriesTitle": "RightThisMinute",
+        "startTimeSec": "1513193400",
+        "title": "",
+        "hasCatchup": false,
+        "hasVod": false,
+        "reviewRating": 5
+      },
+      "type": "event"
+    }
+  ],
+  "CH000035": [
+    {
+      "details": {
+        "description": "Gumball refuses to forward a scare email.",
+        "durationSec": 1800,
+        "endTimeSec": "1513191600",
+        "epsiodeNumber": 11,
+        "Genres": [
+          "Kids & Family",
+          "Comedy",
+          "Animation",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP014122930194",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP014122930194",
+        "programType": "EPISODE",
+        "rating": "TV-Y7",
+        "seasonNumber": 3,
+        "seriesTitle": "The Amazing World of Gumball",
+        "startTimeSec": "1513189800",
+        "title": "The Mirror; The Burden",
+        "hasCatchup": true,
+        "hasVod": true,
+        "reviewRating": 2.5
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "Robin makes the other Titans sell their treasured mementos.",
+        "durationSec": 900,
+        "endTimeSec": "1513192500",
+        "epsiodeNumber": 21,
+        "Genres": [
+          "Kids & Family",
+          "Action",
+          "Animation",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017123260398",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP017123260398",
+        "programType": "EPISODE",
+        "rating": "TV-PG",
+        "seasonNumber": 3,
+        "seriesTitle": "Teen Titans Go!",
+        "startTimeSec": "1513191600",
+        "title": "Garage Sale",
+        "hasCatchup": false,
+        "hasVod": false,
+        "reviewRating": 3.4
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "Starfire teaches Cyborg to relax.",
+        "durationSec": 900,
+        "endTimeSec": "1513193400",
+        "epsiodeNumber": 22,
+        "Genres": [
+          "Kids & Family",
+          "Action",
+          "Animation",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP017123260399",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP017123260399",
+        "programType": "EPISODE",
+        "rating": "TV-PG",
+        "seasonNumber": 3,
+        "seriesTitle": "Teen Titans Go!",
+        "startTimeSec": "1513192500",
+        "title": "Secret Garden",
+        "hasCatchup": true,
+        "hasVod": false,
+        "reviewRating": 2.5
+      },
+      "type": "event"
+    }
+  ],
+  "CH000037": [
+    {
+      "details": {
+        "description": "Bill is forced to hide his feelings for Steffy.",
+        "durationSec": 1800,
+        "endTimeSec": "1513191600",
+        "epsiodeNumber": 61,
+        "Genres": [
+          "Drama",
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP000042175870",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP000042175870",
+        "programType": "EPISODE",
+        "rating": "TV-14",
+        "seasonNumber": 31,
+        "seriesTitle": "The Bold and the Beautiful",
+        "startTimeSec": "1513189800",
+        "title": "",
+        "hasCatchup": false,
+        "hasVod": false,
+        "reviewRating": 4.2
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "TV personality Nick Cannon; Paula Abdul guest co-hosts.",
+        "durationSec": 3600,
+        "endTimeSec": "1513195200",
+        "epsiodeNumber": 66,
+        "Genres": [
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP013078551591",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP013078551591",
+        "programType": "EPISODE",
+        "rating": "TV-14",
+        "seasonNumber": 8,
+        "seriesTitle": "The Talk",
+        "startTimeSec": "1513191600",
+        "title": "",
+        "hasCatchup": false,
+        "hasVod": true,
+        "reviewRating": 4
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "Teens may have recorded images and audio of their killer.",
+        "durationSec": 3600,
+        "endTimeSec": "1513198800",
+        "epsiodeNumber": 65,
+        "Genres": [
+          "TV Shows"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/EP005178512786",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "EP005178512786",
+        "programType": "EPISODE",
+        "rating": "TV-PG",
+        "seasonNumber": 16,
+        "seriesTitle": "Dr. Phil",
+        "startTimeSec": "1513195200",
+        "title": "The Indiana Train Track Murders; The Search for a Killer",
+        "hasCatchup": true,
+        "hasVod": false,
+        "reviewRating": 3
+      },
+      "type": "event"
+    }
+  ],
+  "CH000091": [
+    {
+      "details": {
+        "description": "An industrial spy meets a charming double-agent.",
+        "durationSec": 6000,
+        "endTimeSec": "1513195200",
+        "Genres": [
+          "Comedy",
+          "Movies"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/MV000005020000",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "MV000005020000",
+        "programType": "MOVIE",
+        "rating": "TV-PG",
+        "startTimeSec": "1513189200",
+        "title": "Caprice",
+        "year": "1967",
+        "hasCatchup": true,
+        "hasVod": false,
+        "reviewRating": 3
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "A routine business trip becomes an adventure in disaster.",
+        "durationSec": 6540,
+        "endTimeSec": "1513201740",
+        "Genres": [
+          "Comedy",
+          "Movies"
+        ],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/MV005542490000",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "MV005542490000",
+        "programType": "MOVIE",
+        "rating": "TV-MA",
+        "startTimeSec": "1513195200",
+        "title": "Unfinished Business",
+        "year": "2015",
+        "hasCatchup": false,
+        "hasVod": false,
+        "reviewRating": 2.6
+      },
+      "type": "event"
+    },
+    {
+      "details": {
+        "description": "",
+        "durationSec": 660,
+        "endTimeSec": "1513202400",
+        "Genres": [],
+        "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_scale,w_190/v1510918394/imageserver/program/SH015078360000",
+        "isHD": true,
+        "language": "ENG",
+        "programID": "SH015078360000",
+        "rating": "",
+        "startTimeSec": "1513201740",
+        "hasCatchup": true,
+        "hasVod": true,
+        "reviewRating": 4
+      },
+      "type": "event"
+    }
+  ]
+}
