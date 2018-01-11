@@ -33,7 +33,7 @@ setTimeout(preparePgmDbList, 6000);
 function preparePgmDbList(){
    
 
-   var milliseconds = d.getTime();
+   var seconds = Math.floor(d.getTime()/1000);
    var exitLoop = false;
    var collectionExists = false
 
@@ -51,14 +51,15 @@ function preparePgmDbList(){
             {
                var programsForChannel = [];
                var programsOnNow = {};
-               var startTime = milliseconds;
+               var startTime = seconds;
                collectionItemCount = collectionItemCount + 1;
                for (programIndex = 0; programIndex < 10; programIndex++)
                {   
                   program = programsList[programIndex + pgmOffset]
                   if (program){
-                  program.details.startTimeSec = startTime;
-                  startTime = startTime + program.details.durationSec;
+                  program.details.startTimeSec = startTime.toString();
+                  program.details.endTimeSec = (startTime + program.details.durationSec).toString();
+                  startTime = (startTime + program.details.durationSec) + 1;
                   programsForChannel.push(program);
                   }else{
                      exitLoop = true;
