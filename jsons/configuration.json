@@ -21,7 +21,9 @@
 		"play":     "videoLayer",
 		"miniguide": "channelLayer",
 		"programSurfer": "programsCarousalLayer",
-		"infobanner": "infobarLayer"
+		"infobanner": "infobarLayer",
+		"startup":"startupLayer",
+		"liveTV":"liveTVLayer"
 	},
 	"customDefinition":{
 		"global":{
