@@ -31,12 +31,12 @@ cloudinary.config({
 setTimeout(preparePgmDbList, 6000);
 
 function preparePgmDbList(){
-   
 
    var seconds = Math.floor(d.getTime()/1000);
    var exitLoop = false;
    var collectionExists = false
-
+   setInterval(reSchedulePrograms, 1800000);
+   
    fs.readFile('./jsons/v2/programsList.json', 'utf8', function (err, data) {
       if (err) throw err;
       dbObj = persistObj.getDB();
@@ -44,7 +44,7 @@ function preparePgmDbList(){
       dbObj.listCollections({name:'programDataBase'}).next(function(err, collInfo){
          if(!collInfo)
          {
-            console.log("Doesn't it exists--creating one");
+            console.log("programDataBase doesn't exists--creating one");
             programsList = JSON.parse(data);
             var pgmOffset = 0;
             for(var channelIndex in  channelsNewObj)
@@ -86,8 +86,7 @@ function preparePgmDbList(){
       });
       
       console.log("");
-   //setInterval(updatePgmDbList, 2500);
-   });      
+   });
 }
 
 //Function to set the count of collections
@@ -373,5 +372,28 @@ router.get('/entrypoint/v2/schedule/:channelId', function(req, res){
    
 });
 
+function reSchedulePrograms()
+ {
+   var currentTimeSec = Math.floor(d.getTime()/1000);
+   var lastProgram;
+   var shiftedProgram;
+   dbObj = persistObj.getDB();
+   console.log("[x][1][1]--Running ReSchedule--[1][1][x]",currentTimeSec);
+   dbObj.collection('programDataBase').find().forEach(function(doc){
+      var programArray = doc.programs;
+      //TODO:Check must be based on time
+      if (true)//(parseInt(programArray[0].details.endTimeSec) < currentTimeSec - 10)
+      {
+         shiftedProgram = programArray.shift();
+         lastProgram = programArray[programArray.length-1];
+         //Update the startTime and EndTime the the shifted program
+         shiftedProgram.details.startTimeSec = (parseInt(lastProgram.details.endTimeSec) + 1).toString();
+         shiftedProgram.details.endTimeSec = (parseInt(shiftedProgram.details.startTimeSec) + shiftedProgram.details.durationSec).toString();
+         programArray.push(shiftedProgram);
+         console.log("Rescheduled");
+         dbObj.collection('programDataBase').update({"channelId":doc.channelId}, {$set:{"programs":programArray}});
+      }
+   });
+ }
 
 module.exports = router;
