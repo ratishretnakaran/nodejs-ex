@@ -359,7 +359,6 @@ router.get('/entrypoint/v2/schedule/:channelId', function(req, res){
    var col = dbObj.collection('programDataBase');
 
    // Show that duplicate records got dropped
-
    col.find({channelId:req.params.channelId}).toArray(function(err, items) {
    if(err) throw err;
    if (items[0])
@@ -372,19 +371,56 @@ router.get('/entrypoint/v2/schedule/:channelId', function(req, res){
    
 });
 
+router.get('/entrypoint/v2/epg', function(req, res){
+   console.log("req.query.channels :", req.query.channels);
+   dbObj = persistObj.getDB();
+   var col = dbObj.collection('programDataBase');
+   var channelIDs = req.query.channels.split(',');
+   //pick all channels with the channel IDs
+   // Show that duplicate records got dropped
+   var channelsCount = channelIDs.length;
+   console.log("channelsCount : ", channelsCount);
+   var epgData = {};
+   
+   for(var channelIdIndex in channelIDs)
+   {
+        var channelID = channelIDs[channelIdIndex];
+        console.log("channelID : ", channelID);
+        col.find({channelId:channelID}).toArray(function(err, items) {
+            if(err) throw err;            
+            if (items[0])
+            {   
+                epgData[items[0].channelId] = items[0].programs;
+                if( items[0].channelId == channelIDs[channelsCount-1])
+                {   
+                    console.log("SENDING DATA AT items[0].channelId: ", items[0].channelId );
+                    res.send(epgData);
+                }
+            }
+            else
+            {
+                res.send({});
+            }
+       });
+   }
+      
+});
+
 function reSchedulePrograms()
  {
-   var currentTimeSec = Math.floor(d.getTime()/1000);
-   var lastProgram;
-   var shiftedProgram;
-   dbObj = persistObj.getDB();
+     var currentDateTime = new Date(); 
+     var currentTimeSec = Math.floor(currentDateTime.getTime()/1000);
+     var lastProgram;
+     var shiftedProgram;
+     dbObj = persistObj.getDB();
    console.log("[x][1][1]--Running ReSchedule--[1][1][x]",currentTimeSec);
    dbObj.collection('programDataBase').find().forEach(function(doc){
       var programArray = doc.programs;
-      //TODO:Check must be based on time
-      if (true)//(parseInt(programArray[0].details.endTimeSec) < currentTimeSec - 10)
+      programEndTimeInt = parseInt(programArray[0].details.endTimeSec)
+      if (programEndTimeInt < currentTimeSec)
       {
          shiftedProgram = programArray.shift();
+         console.log("PROGRAM EXPIRED WITH TITLE: shiftedProgram.details.title: ", shiftedProgram.details.title);
          lastProgram = programArray[programArray.length-1];
          //Update the startTime and EndTime the the shifted program
          shiftedProgram.details.startTimeSec = (parseInt(lastProgram.details.endTimeSec) + 1).toString();
@@ -394,6 +430,56 @@ function reSchedulePrograms()
          dbObj.collection('programDataBase').update({"channelId":doc.channelId}, {$set:{"programs":programArray}});
       }
    });
+ }
+
+
+ router.get('/entrypoint/v2/programs/resettime',function(req, res){
+    console.log("ENTRY POINT GET V2");    
+
+    resetProgramTimes(res, onResetDone);
+ });
+ 
+ function onResetDone(res)
+ {
+    res.send("RESET COMPLETE"); 
+ }
+
+ function resetProgramTimes(res, callback)
+ {
+    var currentDateTime = new Date();    
+    var seconds = Math.floor(currentDateTime.getTime()/1000); 
+    dbObj = persistObj.getDB();
+    var count = 0;
+    var pgmDBCollectionCount = dbObj.collection('programDataBase').find().count();
+    dbObj = persistObj.getDB();
+    dbObj.collection('programDataBase').find().forEach(function(doc){
+        var programs = doc.programs;
+        for(var programIndex in programs)
+        {
+            program = programs[programIndex];
+            if(programIndex == 0)
+            {
+                startTime = seconds;
+                program.details.startTimeSec = startTime.toString();
+                program.details.endTimeSec = (startTime + program.details.durationSec).toString();
+                startTime = (startTime + program.details.durationSec) + 1;
+            }
+            else
+            {
+                program.details.startTimeSec = startTime.toString(); //use previously calculated StartTime
+                program.details.endTimeSec = (startTime + program.details.durationSec).toString();
+                startTime = (startTime + program.details.durationSec) + 1;
+            }
+        }
+        dbObj.collection('programDataBase').update({"channelId":doc.channelId}, {$set:{"programs":programs}});
+        count = count + 1;
+        console.log(count, collectionItemCount);
+        if (count == collectionItemCount)
+        {
+          callback(res);
+        }
+    });
+
  }
 
 module.exports = router;
