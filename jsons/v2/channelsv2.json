@@ -2,112 +2,112 @@
   {
     "channelID": "10201",
     "channelNumber": 623,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "Flix",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/10201"
   },
   {
     "channelID": "14765",
     "channelNumber": 607,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
     "name": "Starz Encore Westerns",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/14765"
   },
   {
     "channelID": "14886",
     "channelNumber": 608,
-    "mediaUrl": "",
+    "mediaUrl": "https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8",
     "name": "Starz Encore Family HD East",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/14886"
   },
   {
     "channelID": "21868",
     "channelNumber": 551,
-    "mediaUrl": "",
+    "mediaUrl": "http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8",
     "name": "Showtime HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/21868"
   },
   {
     "channelID": "25274",
     "channelNumber": 558,
-    "mediaUrl": "",
+    "mediaUrl": "http://www.streambox.fr/playlists/test_001/stream.m3u8",
     "name": "Showtime Family Zone",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/25274"
   },
   {
     "channelID": "34933",
     "channelNumber": 531,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitmovin-a.akamaihd.net/content/playhouse-vr/m3u8s/105560.m3u8",
     "name": "Cinemax HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/34933"
   },
   {
     "channelID": "34941",
     "channelNumber": 581,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "Starz HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/34941"
   },
   {
     "channelID": "35329",
     "channelNumber": 571,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
     "name": "TMC HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35329"
   },
   {
     "channelID": "35361",
     "channelNumber": 41,
-    "mediaUrl": "",
+    "mediaUrl": "https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8",
     "name": "Univision (WXTV) HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35361"
   },
   {
     "channelID": "35364",
     "channelNumber": 68,
-    "mediaUrl": "",
+    "mediaUrl": "http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8",
     "name": "UniMas (WFUT) HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35364"
   },
   {
     "channelID": "36225",
     "channelNumber": 602,
-    "mediaUrl": "",
+    "mediaUrl": "http://www.streambox.fr/playlists/test_001/stream.m3u8",
     "name": "Starz Encore HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/36225"
   },
   {
     "channelID": "54437",
     "channelNumber": 47,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitmovin-a.akamaihd.net/content/playhouse-vr/m3u8s/105560.m3u8",
     "name": "Telemundo (WNJU) HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/54437"
   },
   {
     "channelID": "57569",
     "channelNumber": 586,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "Starz Comedy HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/57569"
   },
   {
     "channelID": "57573",
     "channelNumber": 582,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
     "name": "Starz Edge HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/57573"
   },
   {
     "channelID": "57581",
     "channelNumber": 584,
-    "mediaUrl": "",
+    "mediaUrl": "https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8",
     "name": "Starz Kids & Family HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/57581"
   },
   {
     "channelID": "58533",
     "channelNumber": 552,
-    "mediaUrl": "",
+    "mediaUrl": "http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8",
     "name": "Showtime 2 HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/58533"
   },
@@ -121,42 +121,42 @@
   {
     "channelID": "59363",
     "channelNumber": 513,
-    "mediaUrl": "",
+    "mediaUrl": "http://www.streambox.fr/playlists/test_001/stream.m3u8",
     "name": "HBO Signature HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59363"
   },
   {
     "channelID": "59373",
     "channelNumber": 532,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "MoreMax HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59373"
   },
   {
     "channelID": "59444",
     "channelNumber": 81,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
     "name": "IFC HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59444"
   },
   {
     "channelID": "59837",
     "channelNumber": 517,
-    "mediaUrl": "",
+    "mediaUrl": "https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8",
     "name": "HBO Latino HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59837"
   },
   {
     "channelID": "59839",
     "channelNumber": 515,
-    "mediaUrl": "",
+    "mediaUrl": "http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8",
     "name": "HBO Comedy HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59839"
   },
   {
     "channelID": "59845",
     "channelNumber": 516,
-    "mediaUrl": "",
+    "mediaUrl": "http://www.streambox.fr/playlists/test_001/stream.m3u8",
     "name": "HBO Zone HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59845"
   },
@@ -170,49 +170,49 @@
   {
     "channelID": "59952",
     "channelNumber": 535,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitmovin-a.akamaihd.net/content/playhouse-vr/m3u8s/105560.m3u8",
     "name": "OuterMax HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59952"
   },
   {
     "channelID": "59954",
     "channelNumber": 534,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "ThrillerMax HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59954"
   },
   {
     "channelID": "59961",
     "channelNumber": 537,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
     "name": "5 StarMax HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59961"
   },
   {
     "channelID": "59963",
     "channelNumber": 538,
-    "mediaUrl": "",
+    "mediaUrl": "https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8",
     "name": "MovieMAX HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59963"
   },
   {
     "channelID": "59965",
     "channelNumber": 536,
-    "mediaUrl": "",
+    "mediaUrl": "http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8",
     "name": "Max Latino HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59965"
   },
   {
     "channelID": "60947",
     "channelNumber": 554,
-    "mediaUrl": "",
+    "mediaUrl": "http://www.streambox.fr/playlists/test_001/stream.m3u8",
     "name": "Showtime Extreme HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/60947"
   },
   {
     "channelID": "60951",
     "channelNumber": 572,
-    "mediaUrl": "",
+    "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "The Movie Channel Extra HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/60951"
   },
