@@ -376,24 +376,36 @@ router.get('/entrypoint/v2/epg', function(req, res){
    dbObj = persistObj.getDB();
    var col = dbObj.collection('programDataBase');
    var channelIDs = req.query.channels.split(',');
+   var startTime = parseInt(req.query.startTime);
+   var endTime = parseInt(req.query.endTime);
    //pick all channels with the channel IDs
    // Show that duplicate records got dropped
    var channelsCount = channelIDs.length;
    console.log("channelsCount : ", channelsCount);
    var epgData = {};
-   
+   var count = 0;
+
    for(var channelIdIndex in channelIDs)
    {
         var channelID = channelIDs[channelIdIndex];
         console.log("channelID : ", channelID);
         col.find({channelId:channelID}).toArray(function(err, items) {
             if(err) throw err;            
+            count = count + 1;
             if (items[0])
             {   
-                epgData[items[0].channelId] = items[0].programs;
-                if( items[0].channelId == channelIDs[channelsCount-1])
+               var programsArray = [];
+               for(i=0;i<items[0].programs.length;i++)
+               {
+                  if((parseInt(items[0].programs[i].details.startTimeSec) < endTime) && (parseInt(items[0].programs[i].details.endTimeSec) > startTime))
+                  {
+                     programsArray.push(items[0].programs[i]);
+                  }
+               }
+                epgData[items[0].channelId] = programsArray;
+                if( count == channelsCount)
                 {   
-                    console.log("SENDING DATA AT items[0].channelId: ", items[0].channelId );
+                    console.log("SENDING DATA AT items[0].channelId: ", items[0].channelId ,count);
                     res.send(epgData);
                 }
             }
