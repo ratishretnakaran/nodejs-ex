@@ -257,6 +257,23 @@ router.get('/entrypoint/v1/event',function(req, res){
 });
 
 
+router.get('/entrypoint/v2/event/:programID',function(req, res){
+   console.log("EVENT DETAIL GET");    
+   
+   dbObj = persistObj.getDB();
+   var col = dbObj.collection('programDataBase');
+   //ProgramsDetail is taken from programDataBase
+   //TODO:Should have a seperate programDetails db?
+   col.find({"programs.details.programID":req.params.programID},{"programs.details.$":1,_id:0}).toArray(function(err, items) {
+   if(err) throw err;
+   if (items[0])
+   {
+      res.send(items[0].programs);
+   }else{
+      res.send({});
+   }
+   });
+});
 // router.post('/uploadlogos',function(req, res){
 //    console.log("UPLOAD IMAGES");
 // 
@@ -333,7 +350,6 @@ function prepareProgramsOnNow(res, callback)
    var count = 0;
    var pgmDBCollectionCount = dbObj.collection('programDataBase').find().count();
 
-    dbObj = persistObj.getDB();
    dbObj.collection('programDataBase').find().forEach(function(doc){
       programsOnNow[doc.channelId] = doc.programs.slice(0,3);
       count = count + 1;
