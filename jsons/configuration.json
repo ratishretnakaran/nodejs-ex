@@ -1,44 +1,79 @@
 {
-	"configVersion": "1.0.1",
-	"settings": {
-		"entryPointUrl": "/entrypoint/v2"
-	},
-	"appConstants": {
-		"loginUrl": {
-			"Phase1": "/login/phase1",
-			"Phase2": "/login/phase2",
-			"Phase3": "/login/phase3"
-		}
-	},
-	"templateDefinition": {
-		"init":     "loginLayer",
-		"mainMenu": "selectModeLayer",
-		"vod":      "gridLayer",
-		"dvr":      "listLayer",
-		"tv":       "channelLayer",
-		"discover": "gridLayer",
-		"search":   "miniSearchLayer",
-		"play":     "videoLayer",
-		"miniguide": "channelLayer",
-		"programSurfer": "programsCarousalLayer",
-		"infobanner": "infobarLayer",
-		"startup":"startupLayer",
-		"liveTV":"liveTVLayer"
-	},
-	"customDefinition":{
-		"global":{
-			"logo.uri": "https://www.logomyway.com/marketPlace/bens0n_6988/generic_cityscape1.jpg",
-			"bg.uri":"https://uc.uxpin.com/files/776903/773600/cable-satellite-female-news-reporters-958617.jpg",
-			"bg.blendColor":"0x444444FF"
-		},
-		"mainMenu":{
-			"rowList.showRowCounter": ["false"],
-			"rowList.showRowLabel": ["false"],
-			"top.url": "pkg://data/entrypoint/v1/mainmenu.json",
-			"key.up":"play"
-		},
-		"tv":{
-			"key.up":"mainmenu"
-		}
-	}
+  "configVersion": "1.0.1",
+  "settings": {
+    "entryPointUrl": "/entrypoint/v2"
+  },
+  "appConstants": {
+    "loginUrl": {
+      "Phase1": "/login/phase1",
+      "Phase2": "/login/phase2",
+      "Phase3": "/login/phase3"
+    }
+  },
+  "templateDefinition": {
+    "init": "loginLayer",
+    "mainMenu": "selectModeLayer",
+    "vod": "gridLayer",
+    "dvr": "listLayer",
+    "tv": "channelLayer",
+    "discover": "gridLayer",
+    "search": "miniSearchLayer",
+    "play": "videoLayer",
+    "miniguide": "channelLayer",
+    "programSurfer": "programsCarousalLayer",
+    "infobanner": "infobarLayer",
+    "startup": "startupLayer",
+    "liveTV": "liveTVLayer",
+    "guide": "epgLayer"
+  },
+  "customDefinition": {
+    "global": {
+      "logo.uri": "https://www.logomyway.com/marketPlace/bens0n_6988/generic_cityscape1.jpg",
+      "bg.uri": "https://uc.uxpin.com/files/776903/773600/cable-satellite-female-news-reporters-958617.jpg",
+      "bg.blendColor": "0x444444FF"
+    },
+    "mainMenu": {
+      "rowList.showRowCounter": [
+        "false"
+      ],
+      "rowList.showRowLabel": [
+        "false"
+      ],
+      "top.url": "pkg://data/entrypoint/v1/mainmenu.json",
+      "key.up": "play"
+    },
+    "tv": {
+      "key.up": "mainmenu"
+    },
+    "filters": [
+      {
+        "id": "all",
+        "name": "All"
+      },
+      {
+        "id": "news",
+        "name": "News"
+      },
+      {
+        "id": "cartoon",
+        "name": "Cartoon"
+      },
+      {
+        "id": "sports",
+        "name": "Sports"
+      },
+      {
+        "id": "education",
+        "name": "Education"
+      },
+      {
+        "id": "movies",
+        "name": "Movies"
+      },
+      {
+        "id": "devotional",
+        "name": "Devotional"
+      }
+    ]
+  }
 }

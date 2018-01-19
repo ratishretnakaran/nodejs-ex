@@ -91,6 +91,19 @@
          }
       ]
      }
+   },
+   {
+     "context": "epg",
+     "details": {
+      "actionParams": [
+         {
+           "type": "URL",
+           "value": "/entrypoint/v2/epg",
+           "replaceString": "",
+           "replaceType": ""
+         }
+      ]
+     }
    }
   ]
 }

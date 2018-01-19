@@ -4,140 +4,223 @@
     "channelNumber": 623,
     "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "Flix",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/10201"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/10201",
+    "filters": [
+      "movies",
+      "sports"
+    ]
   },
   {
     "channelID": "14765",
     "channelNumber": 607,
     "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
     "name": "Starz Encore Westerns",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/14765"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/14765",
+    "filters": [
+      "movies",
+      "all"
+    ]
   },
   {
     "channelID": "14886",
     "channelNumber": 608,
     "mediaUrl": "https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8",
     "name": "Starz Encore Family HD East",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/14886"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/14886",
+    "filters": [
+      "movies",
+      "sports"
+    ]
   },
   {
     "channelID": "21868",
     "channelNumber": 551,
     "mediaUrl": "http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8",
     "name": "Showtime HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/21868"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/21868",
+    "filters": [
+      "movies",
+      "sports"
+    ]
   },
   {
     "channelID": "25274",
     "channelNumber": 558,
     "mediaUrl": "http://www.streambox.fr/playlists/test_001/stream.m3u8",
     "name": "Showtime Family Zone",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/25274"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/25274",
+    "filters": [
+      "devotional",
+      "cartoon"
+    ]
   },
   {
     "channelID": "34933",
     "channelNumber": 531,
     "mediaUrl": "https://bitmovin-a.akamaihd.net/content/playhouse-vr/m3u8s/105560.m3u8",
     "name": "Cinemax HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/34933"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/34933",
+    "filters": [
+      "movies",
+      "all"
+    ]
   },
   {
     "channelID": "34941",
     "channelNumber": 581,
     "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "Starz HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/34941"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/34941",
+    "filters": [
+      "movies",
+      "all"
+    ]
   },
   {
     "channelID": "35329",
     "channelNumber": 571,
     "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
     "name": "TMC HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35329"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35329",
+    "filters": [
+      "all",
+      "sports"
+    ]
   },
   {
     "channelID": "35361",
     "channelNumber": 41,
     "mediaUrl": "https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8",
     "name": "Univision (WXTV) HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35361"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35361",
+    "filters": [
+      "news",
+      "sports"
+    ]
   },
   {
     "channelID": "35364",
     "channelNumber": 68,
     "mediaUrl": "http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8",
     "name": "UniMas (WFUT) HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35364"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35364",
+    "filters": [
+      "news",
+      "sports",
+      "education"
+    ]
   },
   {
     "channelID": "36225",
     "channelNumber": 602,
     "mediaUrl": "http://www.streambox.fr/playlists/test_001/stream.m3u8",
     "name": "Starz Encore HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/36225"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/36225",
+    "filters": [
+      "movies",
+      "all"
+    ]
   },
   {
     "channelID": "54437",
     "channelNumber": 47,
     "mediaUrl": "https://bitmovin-a.akamaihd.net/content/playhouse-vr/m3u8s/105560.m3u8",
     "name": "Telemundo (WNJU) HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/54437"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/54437",
+    "filters": [
+      "news",
+      "sports",
+      "education"
+    ]
   },
   {
     "channelID": "57569",
     "channelNumber": 586,
     "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "Starz Comedy HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/57569"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/57569",
+    "filters": [
+      "movies",
+      "news"
+    ]
   },
   {
     "channelID": "57573",
     "channelNumber": 582,
     "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
     "name": "Starz Edge HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/57573"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/57573",
+    "filters": [
+      "movies",
+      "education"
+    ]
   },
   {
     "channelID": "57581",
     "channelNumber": 584,
     "mediaUrl": "https://mnmedias.api.telequebec.tv/m3u8/29880.m3u8",
     "name": "Starz Kids & Family HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/57581"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/57581",
+    "filters": [
+      "cartoon",
+      "education"
+    ]
   },
   {
     "channelID": "58533",
     "channelNumber": 552,
     "mediaUrl": "http://184.72.239.149/vod/smil:BigBuckBunny.smil/playlist.m3u8",
     "name": "Showtime 2 HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/58533"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/58533",
+    "filters": [
+      "movies",
+      "sports",
+      "all"
+    ]
   },
   {
     "channelID": "59357",
     "channelNumber": 514,
     "mediaUrl": "",
     "name": "HBO Family HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59357"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59357",
+    "filters": [
+      "movies",
+      "cartoon",
+      "devotional"
+    ]
   },
   {
     "channelID": "59363",
     "channelNumber": 513,
     "mediaUrl": "http://www.streambox.fr/playlists/test_001/stream.m3u8",
     "name": "HBO Signature HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59363"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59363",
+    "filters": [
+      "movies"
+    ]
   },
   {
     "channelID": "59373",
     "channelNumber": 532,
     "mediaUrl": "https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8",
     "name": "MoreMax HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59373"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59373",
+    "filters": [
+      "movies"
+    ]
   },
   {
     "channelID": "59444",
     "channelNumber": 81,
     "mediaUrl": "https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8",
     "name": "IFC HD",
-    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59444"
+    "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/59444",
+    "filters": [
+      "movies",
+      "cartoon",
+      "education"
+    ]
   },
   {
     "channelID": "59837",
