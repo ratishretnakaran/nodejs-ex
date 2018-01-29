@@ -37,7 +37,7 @@ function preparePgmDbList(){
    var collectionExists = false
    setInterval(reSchedulePrograms, 1800000);
    
-   fs.readFile('./jsons/v2/programsList.json', 'utf8', function (err, data) {
+   fs.readFile('./jsons/v2/programsListV2.json', 'utf8', function (err, data) {
       if (err) throw err;
       dbObj = persistObj.getDB();
 
@@ -53,7 +53,7 @@ function preparePgmDbList(){
                var programsOnNow = {};
                var startTime = seconds;
                collectionItemCount = collectionItemCount + 1;
-               for (programIndex = 0; programIndex < 10; programIndex++)
+               for (programIndex = 0; programIndex < 30; programIndex++)
                {   
                   program = programsList[programIndex + pgmOffset]
                   if (program){
@@ -66,7 +66,7 @@ function preparePgmDbList(){
                      break;
                   }
                }
-               pgmOffset = pgmOffset + 10;
+               pgmOffset = pgmOffset + 30;
                programsOnNow = {"channelId":channelsNewObj[channelIndex].channelID, "programs":programsForChannel};
                dbObj.collection('programDataBase').save(programsOnNow, function(err, records){
                   if (err) throw err;
@@ -419,15 +419,11 @@ router.get('/entrypoint/v2/epg', function(req, res){
                   }
                }
                 epgData[items[0].channelId] = programsArray;
-                if( count == channelsCount)
-                {   
-                    console.log("SENDING DATA AT items[0].channelId: ", items[0].channelId ,count);
-                    res.send(epgData);
-                }
             }
-            else
-            {
-                res.send({});
+            if( count == channelsCount)
+            {   
+                console.log("SENDING DATA AT items[0].channelId: ", items[0].channelId ,count);
+                res.send(epgData);
             }
        });
    }
