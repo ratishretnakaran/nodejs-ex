@@ -73,7 +73,10 @@ function preparePgmDbList(){
                   console.log("programs added to Channel",channelsNewObj[channelIndex].channelID);
                });
                if (exitLoop)
-               {break;}
+               {
+                  prepareEventDetailsDb();
+                  break;
+               }
             }
          }
          else
@@ -82,6 +85,7 @@ function preparePgmDbList(){
                if (err) throw err;
                collectionItemCount = count;
             });
+            prepareEventDetailsDb();
          }
       });
       
@@ -96,6 +100,32 @@ function setCount(collectionName, callback)
    dbObj.collection(collectionName).count({}, function(err, count){
       if (err) throw err;
       callback(null, count);
+   });
+}
+
+//Create Program details DB
+function prepareEventDetailsDb()
+{
+   dbObj = persistObj.getDB();
+
+   dbObj.listCollections({name:'programDetailsDataBase'}).next(function(err, collInfo){
+      if(!collInfo)
+      {
+         console.log("programDetailsDataBase DB doesn't exist--creating one");
+
+         fs.readFile('./jsons/eventDetails.json', 'utf8', function (err, data) {
+            programDetailsArray = JSON.parse(data);
+            for (var index in programDetailsArray)
+            {
+               dbObj.collection('programDetailsDataBase').save(programDetailsArray[index], function(err, records){
+                  if (err) throw err;
+               });
+            }
+         });
+
+      }else {
+         console.log("programDetailsDataBase already exists!!");
+      }
    });
 }
 
@@ -261,15 +291,31 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
    console.log("EVENT DETAIL GET");    
    
    dbObj = persistObj.getDB();
-   var col = dbObj.collection('programDataBase');
-   //ProgramsDetail is taken from programDataBase
-   //TODO:Should have a seperate programDetails db?
-   col.find({"programs.details.programID":req.params.programID},{"programs.details.$":1,_id:0}).toArray(function(err, items) {
+   var col = dbObj.collection('programDetailsDataBase');
+   //ProgramsDetail is taken from programDetailsDataBase
+   console.log("Fetching event details");
+   col.find({"details.programID":req.params.programID},{_id:0}).toArray(function(err, items) {
    if(err) throw err;
    if (items[0])
    {
-      res.send(items[0].programs);
+      pgmId = items[0].details.programID;
+      dbObj.collection('programDataBase').find({"programs.details.programID":pgmId},{"channelId":1,"programs.details.$":1,_id:0}).toArray(function(err,dataArray){
+         if(err) throw err;
+         console.log(pgmId);
+         if(dataArray[0])
+         {
+            startTime = dataArray[0].programs[0].details.startTimeSec;
+            endTime = dataArray[0].programs[0].details.endTimeSec;
+            items[0].details.offering[0].startTimeSec = startTime;
+            items[0].details.offering[0].endTimeSec = endTime;
+            res.send(items[0]);
+         }
+         else {
+            res.send(items[0]);
+         }
+      });
    }else{
+      console.log("No details exit for the programId");
       res.send({});
    }
    });
@@ -422,7 +468,7 @@ router.get('/entrypoint/v2/epg', function(req, res){
             }
             if( count == channelsCount)
             {   
-                console.log("SENDING DATA AT items[0].channelId: ", items[0].channelId ,count);
+                // console.log("SENDING DATA AT items[0].channelId: ", items[0].channelId ,count);
                 res.send(epgData);
             }
        });
