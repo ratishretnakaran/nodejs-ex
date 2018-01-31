@@ -18,6 +18,13 @@
           "url": ""
         },
         {
+          "context": "guide",
+          "displayText": "EPG",
+          "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/nonselected/EPG_Unselected.png",
+          "selectedImageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/selected/EPG.png",
+          "url": "/entrypoint/v2/epg"
+       },
+       {
           "context": "search",
           "displayText": "SEARCH",
           "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/nonselected/Search.png",
