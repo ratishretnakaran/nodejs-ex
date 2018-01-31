@@ -17,6 +17,7 @@ var fs = require('fs');
 var channelsNewObj;
 var programsIdMap = {};
 var collectionItemCount = 0;
+var programsList;
 
 var cloudinary = require('cloudinary');
 
@@ -40,12 +41,11 @@ function preparePgmDbList(){
    fs.readFile('./jsons/v2/programsListV2.json', 'utf8', function (err, data) {
       if (err) throw err;
       dbObj = persistObj.getDB();
-
+      programsList = JSON.parse(data);
       dbObj.listCollections({name:'programDataBase'}).next(function(err, collInfo){
          if(!collInfo)
          {
             console.log("programDataBase doesn't exists--creating one");
-            programsList = JSON.parse(data);
             var pgmOffset = 0;
             for(var channelIndex in  channelsNewObj)
             {
@@ -122,8 +122,9 @@ function prepareEventDetailsDb()
                });
             }
          });
-
+         prepareSuggestedMap();
       }else {
+         prepareSuggestedMap();
          console.log("programDetailsDataBase already exists!!");
       }
    });
@@ -140,6 +141,36 @@ router.use(function timeLog (req, res, next) {
   next()
 })
 
+function prepareSuggestedMap()
+{
+   console.log("Preparing Suggested Map");
+   dbObj = persistObj.getDB();
+   dbObj.listCollections({name:'suggestedMapDB'}).next(function(err, collInfo){
+      if(!collInfo)
+      {
+         for(var index in programsList)
+         {
+            program = programsList[index];
+            var suggested = {};
+            suggestedProgramIds = [];
+            for(i = 0;i < 4;i++)
+            {
+               suggestedObjId = programsList[Math.floor((Math.random() * 413) + 1)].details.programID;
+               suggestedProgramIds.push(suggestedObjId);
+            }
+            suggested["programID"] = program.details.programID;
+            suggested["map"] = suggestedProgramIds;
+            dbObj.collection('suggestedMapDB').save(suggested, function(err, records){
+               if(err) throw err;
+            });
+         }
+         console.log("Suggested Map Db created");
+      }else{
+         console.log("Suggested Map Db created");
+      }
+   });
+   
+}
 //ACTORS
 //GET ACTORS
 router.get('/actors', function (req, res) {
@@ -288,36 +319,61 @@ router.get('/entrypoint/v1/event',function(req, res){
 
 
 router.get('/entrypoint/v2/event/:programID',function(req, res){
-   console.log("EVENT DETAIL GET");
-
+   console.log("EVENT DETAIL GET V2");    
+   
    dbObj = persistObj.getDB();
    var col = dbObj.collection('programDetailsDataBase');
+   count = 0;
    //ProgramsDetail is taken from programDetailsDataBase
-   console.log("Fetching event details");
-   col.find({"details.programID":req.params.programID},{_id:0}).toArray(function(err, items) {
-   if(err) throw err;
-   if (items[0])
-   {
-      pgmId = items[0].details.programID;
-      dbObj.collection('programDataBase').find({"programs.details.programID":pgmId},{"channelId":1,"programs.details.$":1,_id:0}).toArray(function(err,dataArray){
-         if(err) throw err;
-         console.log(pgmId);
-         if(dataArray[0])
+   dbObj.collection('suggestedMapDB').find({"programID":req.params.programID},{_id:0}).toArray(function(err, map){
+      if(err) throw err;
+      if(map[0])
+      {
+         suggestedIds = map[0].map;
+         suggestedArray = [];
+         for(var index in suggestedIds)
          {
-            startTime = dataArray[0].programs[0].details.startTimeSec;
-            endTime = dataArray[0].programs[0].details.endTimeSec;
-            items[0].details.offering[0].startTimeSec = startTime;
-            items[0].details.offering[0].endTimeSec = endTime;
-            res.send(items[0]);
+            dbObj.collection('programDataBase').find({"programs.details.programID":suggestedIds[index]},{"channelId":1,"programs.details.$":1,_id:0}).toArray(function(err,dataArray){
+               count = count + 1;
+               console.log(dataArray[0],count);
+               suggestedArray.push(dataArray[0].programs[0]);
+               if(count == 3)
+               {
+                  col.find({"details.programID":req.params.programID},{_id:0}).toArray(function(err, items) {
+                     if(err) throw err;
+                     if (items[0])
+                     {
+                        pgmId = items[0].details.programID;
+                        dbObj.collection('programDataBase').find({"programs.details.programID":pgmId},{"channelId":1,"programs.details.$":1,_id:0}).toArray(function(err,dataArray){
+                           if(err) throw err;
+                           console.log(pgmId);
+                           if(dataArray[0])
+                           {
+                              startTime = dataArray[0].programs[0].details.startTimeSec;
+                              endTime = dataArray[0].programs[0].details.endTimeSec;
+                              items[0].details.offering[0].startTimeSec = startTime;
+                              items[0].details.offering[0].endTimeSec = endTime;
+                              items[0].details.suggested = suggestedArray;
+                              res.send(items[0]);
+                           }
+                           else {
+                              res.send(items[0]);
+                           }
+                        });
+                     }else{
+                        console.log("No details exit for the programId");
+                        res.send({});
+                     }
+                  });
+               }
+            });
+            
          }
-         else {
-            res.send(items[0]);
-         }
-      });
-   }else{
-      console.log("No details exit for the programId");
-      res.send({});
-   }
+      }else{
+         console.log("No details exit for the programId in suggestedMapDB",req.params.programID);
+         res.send({});
+      }
+      
    });
 });
 // router.post('/uploadlogos',function(req, res){
