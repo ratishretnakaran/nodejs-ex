@@ -1,0 +1,34 @@
+[
+  {
+    "title": "All Channels",
+    "type": "ALL"
+  },
+  {
+    "title": "Movies",
+    "type": "GENRE"
+  },
+  {
+    "title": "Sports",
+    "type": "GENRE"
+  },
+  {
+    "title": "News",
+    "type": "GENRE"
+  },
+  {
+    "title": "Cartoon",
+    "type": "GENRE"
+  },
+  {
+    "title": "Music",
+    "type": "GENRE"
+  },
+  {
+    "title": "Education",
+    "type": "GENRE"
+  },
+  {
+    "title": "Devotional",
+    "type": "GENRE"
+  }
+]

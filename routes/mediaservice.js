@@ -20,10 +20,10 @@ var collectionItemCount = 0;
 
 var cloudinary = require('cloudinary');
 
-cloudinary.config({ 
-  cloud_name: '', 
-  api_key: '', 
-  api_secret: '' 
+cloudinary.config({
+  cloud_name: '',
+  api_key: '',
+  api_secret: ''
 });
 
 //Startup functions
@@ -36,7 +36,7 @@ function preparePgmDbList(){
    var exitLoop = false;
    var collectionExists = false
    setInterval(reSchedulePrograms, 1800000);
-   
+
    fs.readFile('./jsons/v2/programsListV2.json', 'utf8', function (err, data) {
       if (err) throw err;
       dbObj = persistObj.getDB();
@@ -54,7 +54,7 @@ function preparePgmDbList(){
                var startTime = seconds;
                collectionItemCount = collectionItemCount + 1;
                for (programIndex = 0; programIndex < 30; programIndex++)
-               {   
+               {
                   program = programsList[programIndex + pgmOffset]
                   if (program){
                   program.details.startTimeSec = startTime.toString();
@@ -88,7 +88,7 @@ function preparePgmDbList(){
             prepareEventDetailsDb();
          }
       });
-      
+
       console.log("");
    });
 }
@@ -143,18 +143,18 @@ router.use(function timeLog (req, res, next) {
 //ACTORS
 //GET ACTORS
 router.get('/actors', function (req, res) {
-    console.log("are u asking for actors?? ");    
-    dbObj = persistObj.getDB()        
+    console.log("are u asking for actors?? ");
+    dbObj = persistObj.getDB()
     if (dbObj)
     {
         dbObj.collection('actors').aggregate( ).toArray(function(err, result){
-            console.log("printing result: ", result);  
-            res.send(result);     
-        });  
-    } 
+            console.log("printing result: ", result);
+            res.send(result);
+        });
+    }
     else
-    {   
-        console.log("dbObj is INVALID");  
+    {
+        console.log("dbObj is INVALID");
     }
 });
 
@@ -162,9 +162,9 @@ router.get('/actors', function (req, res) {
 //ADD an ACTOR
 router.put('/actor', function (req, res) {
     console.log("PUT request Recieved for Actor")
-    console.log("actor info to be added", req.body);   
-    
-    dbObj = persistObj.getDB()        
+    console.log("actor info to be added", req.body);
+
+    dbObj = persistObj.getDB()
     if (dbObj)
     {
         console.log("Saving the JSON Body")
@@ -177,7 +177,7 @@ router.put('/actor', function (req, res) {
     {
         console.log("NO DB FOUND");
     }
-    
+
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('Got Post Data');
 });
@@ -185,8 +185,8 @@ router.put('/actor', function (req, res) {
 //DELETE ACTOR BY ID
 router.delete('/actor', function (req, res) {
     console.log("DELETE ACTOR request Recieved")
-    console.log("actor id to be deleted: ", req.query.id);   
-    dbObj = persistObj.getDB()        
+    console.log("actor id to be deleted: ", req.query.id);
+    dbObj = persistObj.getDB()
     if (dbObj)
     {
         console.log("Deleting the entry")
@@ -207,17 +207,17 @@ router.delete('/actor', function (req, res) {
 router.get('/latestMovies',function(req, res){
     // imdbModule.getLatestMovies(currdate,function(movieResults){
     //     console.log("latest Movies");
-    //     moviesResponse = {results:movieResults}    
+    //     moviesResponse = {results:movieResults}
     //     res.json(moviesResponse);
     // });
-    console.log("latest Movies service end of block");    
+    console.log("latest Movies service end of block");
 });
 
 //CONFIGURATION
 router.post('/configuration',function(req, res){
    console.log("CONFIGURATION GET");
-   
-   var obj;   
+
+   var obj;
    fs.readFile('./jsons/configuration.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
@@ -227,9 +227,9 @@ router.post('/configuration',function(req, res){
 
 //ENTRY POINT
 router.get('/entrypoint/v1',function(req, res){
-   console.log("ENTRY POINT GET");    
-   
-   var obj;   
+   console.log("ENTRY POINT GET");
+
+   var obj;
    fs.readFile('./jsons/v1/entrypoint.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
@@ -239,9 +239,9 @@ router.get('/entrypoint/v1',function(req, res){
 
 //MAIN MENU
 router.get('/entrypoint/v1/mainmenu',function(req, res){
-   console.log("MAIN MENU GET");    
-   
-   var obj;   
+   console.log("MAIN MENU GET");
+
+   var obj;
    fs.readFile('./jsons/mainmenu.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
@@ -251,9 +251,9 @@ router.get('/entrypoint/v1/mainmenu',function(req, res){
 
 //CHANNELS
 router.get('/entrypoint/v1/channels',function(req, res){
-   console.log("CHANNELS GET");    
-   
-   var obj;   
+   console.log("CHANNELS GET");
+
+   var obj;
    fs.readFile('./jsons/v1/channels.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
@@ -263,9 +263,9 @@ router.get('/entrypoint/v1/channels',function(req, res){
 
 //ON NOW
 router.get('/entrypoint/v1/programs/onnow',function(req, res){
-   console.log("ON NOW GET");    
-   
-   var obj;   
+   console.log("ON NOW GET");
+
+   var obj;
    fs.readFile('./jsons/v1/onnowprograms.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
@@ -276,9 +276,9 @@ router.get('/entrypoint/v1/programs/onnow',function(req, res){
 
 //PROGRAM DETAIL
 router.get('/entrypoint/v1/event',function(req, res){
-   console.log("EVENT DETAIL GET");    
-   
-   var obj;   
+   console.log("EVENT DETAIL GET");
+
+   var obj;
    fs.readFile('./jsons/v1/eventdetail.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
@@ -288,8 +288,8 @@ router.get('/entrypoint/v1/event',function(req, res){
 
 
 router.get('/entrypoint/v2/event/:programID',function(req, res){
-   console.log("EVENT DETAIL GET");    
-   
+   console.log("EVENT DETAIL GET");
+
    dbObj = persistObj.getDB();
    var col = dbObj.collection('programDetailsDataBase');
    //ProgramsDetail is taken from programDetailsDataBase
@@ -322,7 +322,7 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
 });
 // router.post('/uploadlogos',function(req, res){
 //    console.log("UPLOAD IMAGES");
-// 
+//
 //    fs.readFile('./jsons/channelsv2.json', 'utf8', function (err, data) {
 //    if (err) throw err;
 //    onNowObj = JSON.parse(data);
@@ -336,7 +336,7 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
 //          var cloudinaryPath = "imageserver/network/"+channel.channelID
 //          console.log("cloudinaryPath :", cloudinaryPath);
 //          cloudinary.v2.uploader.upload(imageSourceUrl, {use_filename: true, public_id: cloudinaryPath},
-//          function(error, result){console.log(result)});   
+//          function(error, result){console.log(result)});
 //       }
 //    }
 //    });
@@ -348,9 +348,9 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
 
 //ENTRY POINT
 router.get('/entrypoint/v2',function(req, res){
-   console.log("ENTRY POINT GET V2");    
-   
-   var obj;   
+   console.log("ENTRY POINT GET V2");
+
+   var obj;
    fs.readFile('./jsons/v2/entrypointv2.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
@@ -360,9 +360,9 @@ router.get('/entrypoint/v2',function(req, res){
 
 //MAIN MENU
 router.get('/entrypoint/v2/mainmenu',function(req, res){
-   console.log("MAIN MENU GET V2");    
-   
-   var obj;   
+   console.log("MAIN MENU GET V2");
+
+   var obj;
    fs.readFile('./jsons/mainmenu.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
@@ -372,19 +372,61 @@ router.get('/entrypoint/v2/mainmenu',function(req, res){
 
 //CHANNELS
 router.get('/entrypoint/v2/channels',function(req, res){
-   console.log("CHANNELS GET V2");    
-   
-   var obj;   
+   console.log("CHANNELS GET V2");
+   var filterType = req.query.filterType;
+   var obj;
+
    fs.readFile('./jsons/v2/channelsv2.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+
+      if (filterType)
+      {
+         var filteredChannelArray = [];
+         var filters = [];
+         for(i=0;i<obj.length;i++)
+         {
+            filters = obj[i].filters
+            console.log("the filters are", filters)
+            if (filters)
+            {
+               for(j=0;j<filters.length;j++)
+               {
+                  if(filters[j] == filterType)
+                  {
+                     filteredChannelArray.push(obj[i]);
+                  }
+               }
+            }
+            else
+            {
+               console.log("No Filters for the Channel", obj[i].channelNumber)
+            }
+         }
+         res.send(filteredChannelArray);
+      }
+      else
+      {
+         res.send(obj);
+      }
+   });
+});
+
+router.get('/entrypoint/v2/filters',function(req, res){
+   console.log("LIVEFILERS GET V2");
+
+   var obj;
+   fs.readFile('./jsons/v2/liveFilters.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
       res.send(obj);
    });
 });
 
+
 //ENTRY POINT V2
 router.get('/entrypoint/v2/programs/onnow',function(req, res){
-   console.log("ENTRY POINT GET V2");    
+   console.log("ENTRY POINT GET V2");
 
    prepareProgramsOnNow(res, onProgramNowAvailable);
 });
@@ -404,7 +446,7 @@ function prepareProgramsOnNow(res, callback)
       {
          callback(res, programsOnNow);
       }
-         
+
    });
 
 }
@@ -430,7 +472,7 @@ router.get('/entrypoint/v2/schedule/:channelId', function(req, res){
       res.send({});
    }
    });
-   
+
 });
 
 router.get('/entrypoint/v2/epg', function(req, res){
@@ -452,10 +494,10 @@ router.get('/entrypoint/v2/epg', function(req, res){
         var channelID = channelIDs[channelIdIndex];
         console.log("channelID : ", channelID);
         col.find({channelId:channelID}).toArray(function(err, items) {
-            if(err) throw err;            
+            if(err) throw err;
             count = count + 1;
             if (items[0])
-            {   
+            {
                var programsArray = [];
                for(i=0;i<items[0].programs.length;i++)
                {
@@ -467,18 +509,18 @@ router.get('/entrypoint/v2/epg', function(req, res){
                 epgData[items[0].channelId] = programsArray;
             }
             if( count == channelsCount)
-            {   
+            {
                 // console.log("SENDING DATA AT items[0].channelId: ", items[0].channelId ,count);
                 res.send(epgData);
             }
        });
    }
-      
+
 });
 
 function reSchedulePrograms()
  {
-     var currentDateTime = new Date(); 
+     var currentDateTime = new Date();
      var currentTimeSec = Math.floor(currentDateTime.getTime()/1000);
      var lastProgram;
      var shiftedProgram;
@@ -504,20 +546,20 @@ function reSchedulePrograms()
 
 
  router.get('/entrypoint/v2/programs/resettime',function(req, res){
-    console.log("ENTRY POINT GET V2");    
+    console.log("ENTRY POINT GET V2");
 
     resetProgramTimes(res, onResetDone);
  });
- 
+
  function onResetDone(res)
  {
-    res.send("RESET COMPLETE"); 
+    res.send("RESET COMPLETE");
  }
 
  function resetProgramTimes(res, callback)
  {
-    var currentDateTime = new Date();    
-    var seconds = Math.floor(currentDateTime.getTime()/1000); 
+    var currentDateTime = new Date();
+    var seconds = Math.floor(currentDateTime.getTime()/1000);
     dbObj = persistObj.getDB();
     var count = 0;
     var pgmDBCollectionCount = dbObj.collection('programDataBase').find().count();
