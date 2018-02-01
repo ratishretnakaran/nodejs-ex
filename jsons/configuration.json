@@ -25,7 +25,8 @@
     "startup": "startupLayer",
     "liveTV": "liveTVLayer",
     "guide": "epgLayer",
-    "productDetail": "productLayer"
+    "productDetail": "productLayer",
+    "filter":"filterLayer"
   },
   "customDefinition": {
     "global": {
