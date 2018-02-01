@@ -24,7 +24,8 @@
     "infobanner": "infobarLayer",
     "startup": "startupLayer",
     "liveTV": "liveTVLayer",
-    "guide": "epgLayer"
+    "guide": "epgLayer",
+    "productDetail": "productLayer"
   },
   "customDefinition": {
     "global": {
