@@ -17,9 +17,8 @@
     "name": "Starz Encore Westerns",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/14765",
     "filters": [
-      "movies",
-      "all"
-    ]
+      "movies"
+   ]
   },
   {
     "channelID": "14886",
@@ -61,8 +60,7 @@
     "name": "Cinemax HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/34933",
     "filters": [
-      "movies",
-      "all"
+      "movies"
     ]
   },
   {
@@ -72,8 +70,7 @@
     "name": "Starz HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/34941",
     "filters": [
-      "movies",
-      "all"
+      "movies"
     ]
   },
   {
@@ -83,7 +80,6 @@
     "name": "TMC HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/35329",
     "filters": [
-      "all",
       "sports"
     ]
   },
@@ -117,8 +113,7 @@
     "name": "Starz Encore HD",
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/36225",
     "filters": [
-      "movies",
-      "all"
+      "movies"
     ]
   },
   {
@@ -174,8 +169,7 @@
     "networkLogo": "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/network/58533",
     "filters": [
       "movies",
-      "sports",
-      "all"
+      "sports"
     ]
   },
   {
