@@ -20,9 +20,9 @@
         "actionParams": [
           {
             "type": "URL",
-            "value": "/entrypoint/v1/event/{mediaID}",
-            "replaceString": "{mediaID}",
-            "replaceType": "mediaID"
+            "value": "/entrypoint/v2/event/{programID}",
+            "replaceString": "{programID}",
+            "replaceType": "programID"
           }
         ]
       }
