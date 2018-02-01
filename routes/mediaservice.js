@@ -353,6 +353,17 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
                               endTime = dataArray[0].programs[0].details.endTimeSec;
                               items[0].details.offering[0].startTimeSec = startTime;
                               items[0].details.offering[0].endTimeSec = endTime;
+                              if(items[0].details.offering && items[0].details.offering[0].eventType == "linear")
+                              {
+                                 items[0].details.actions[0].actionType = "watch"
+                              }
+                              if(items[0].details.shortDescription && items[0].details.longDescription)
+                              {
+                                 if(items[0].details.shortDescription.length < items[0].details.longDescription.length)
+                                 {
+                                    items[0].details.actions[1].actionType = "moreinfo"
+                                 }
+                              }
                               items[0].details.suggested = suggestedArray;
                               res.send(items[0]);
                            }
