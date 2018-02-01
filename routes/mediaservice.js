@@ -349,6 +349,14 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
                            console.log(pgmId);
                            if(dataArray[0])
                            {
+                              if(dataArray[0].programs[0].details.programType)
+                              {
+                                 items[0].details.programType = dataArray[0].programs[0].details.programType;
+                              }
+                              if(dataArray[0].programs[0].details.programType && dataArray[0].programs[0].details.programType == "episode" && dataArray[0].programs[0].details.title)
+                              {
+                                 items[0].details.seriestitle = dataArray[0].programs[0].details.title;
+                              }
                               startTime = dataArray[0].programs[0].details.startTimeSec;
                               endTime = dataArray[0].programs[0].details.endTimeSec;
                               items[0].details.offering[0].startTimeSec = startTime;
