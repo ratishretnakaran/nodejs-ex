@@ -353,12 +353,9 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
                               {
                                  items[0].details.programType = dataArray[0].programs[0].details.programType;
                               }
-                              if(dataArray[0].programs[0].details.programType && dataArray[0].programs[0].details.programType == "episode" && dataArray[0].programs[0].details.title)
-                              {
-                                 items[0].details.seriestitle = dataArray[0].programs[0].details.title;
-                              }
                               startTime = dataArray[0].programs[0].details.startTimeSec;
                               endTime = dataArray[0].programs[0].details.endTimeSec;
+                              items[0].details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/v1510918394/imageserver/program/iconic/"+items[0].details.programID;
                               items[0].details.offering[0].startTimeSec = startTime;
                               items[0].details.offering[0].endTimeSec = endTime;
                               if(items[0].details.offering && items[0].details.offering[0].eventType == "linear")
