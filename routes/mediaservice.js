@@ -692,7 +692,7 @@ function reSchedulePrograms()
                     var programCount = 0;
                     for(var index in programList)
                     {   
-                       randomIndex = Math.floor((Math.random() * totalPrograms) + 1);
+                       var randomIndex = Math.floor((Math.random() * (totalPrograms - 1)) + 1);
                        var program = programList[randomIndex];
                        
                        if(filterType == "Potrait") //movie type
