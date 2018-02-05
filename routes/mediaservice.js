@@ -1,6 +1,7 @@
 //Media Services APIS' a exposed in here
 var express = require('express')
 var router = express.Router()
+var async = require('async');
 
 var persistObj = require('../dbconnection.js')
 //var imdbModule = require('./imdbModule.js')
@@ -668,5 +669,90 @@ function reSchedulePrograms()
     });
 
  }
+ 
+ 
+ router.get('/entrypoint/v2/ondemand',function(req, res){
+    async.waterfall([ 
+        function(callback){
+            dbObj = persistObj.getDB();
+            dbObj.collection('programDetailsDataBase').aggregate().toArray(function(err, result){
+                console.log("FUNCTION 1");
+                callback(null, result);
+            });
+        },
+        function(programList, callback){
+            console.log("FUNCTION 2");
+            var totalPrograms = programList.length;
+            console.log("totalPrograms: ", totalPrograms);
+    
+            fs.readFile('./jsons/v2/ondemandFilters.json', 'utf8', function (err, data) {
+               if (err) throw err;
+               ondemandFilterObj = JSON.parse(data);
+               for( var filterIndex in ondemandFilterObj)
+               {   
+                    var filteredProgram = [];
+                    var filterObj = ondemandFilterObj[filterIndex];
+                    //find the type and based on it prepare the list
+                    var filterType = filterObj.type;
+                    
+                    var programCount = 0;
+                    for(var index in programList)
+                    {   
+                       randomIndex = Math.floor((Math.random() * totalPrograms) + 1);
+                       
+                       var program = programList[randomIndex];
+                       console.log("program: ", program);
+                       
+                       if(filterType == "Potrait") //movie type
+                       {
+                           if( program.eventType == "MOVIE")
+                           {    
+                               delete program["_id"];
+                               program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_317,w_211/v1510918394/imageserver/program/" + program.details.programID;
+                               filteredProgram.push(program);
+                               programCount++;
+                               if(programCount > 5)
+                               {
+                                   break;
+                               }
+                           } 
+                       }
+                       else
+                       {
+                           var filterContext = filterObj.context;
+                           if( filterContext == "categories")
+                           {
+                                break;
+                           }
+                           else
+                           {
+                               if( program.eventType == "EPISODE")
+                               {    
+                                   delete program["_id"];
+                                   //change the imageUrl path to hold iconic
+                                   program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_180,w_321/v1510918394/imageserver/program/iconic/" + program.details.programID;
+                                   filteredProgram.push(program);
+                                   programCount++;
+                                   if(programCount > 5)
+                                   {
+                                       break;
+                                   }  
+                               }
+                           }
+                       }
+                    }
+                    
+                    filterObj["assets"] = filteredProgram;
+               }
+               res.send(ondemandFilterObj);
+               callback(null, "ONDEMAND REQUEST PROCESSED....")
+            });
+        }
+    ],
+    function (err,result) {
+    console.log(result)
+    });
+ });
+
 
 module.exports = router;

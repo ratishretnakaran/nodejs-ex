@@ -1,0 +1,27 @@
+[
+  {
+    "name": "JUST ADDED",
+    "context": "newlyAdded",
+    "type": "landScape"
+  },
+  {
+    "name": "",
+    "context": "categories",
+    "type": "landScape"
+  },
+  {
+    "name": "CONTINUE WATCHING",
+    "context": "inProgress",
+    "type": "landScape"
+  },
+  {
+    "name": "RECOMMENDED FOR YOU",
+    "context": "recommended",
+    "type": "landScape"
+  },
+  {
+    "name": "NEW MOVIES",
+    "context": "newMovies",
+    "type": "Potrait"
+  }
+]
