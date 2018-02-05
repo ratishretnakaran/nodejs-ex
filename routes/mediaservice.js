@@ -673,15 +673,12 @@ function reSchedulePrograms()
         function(callback){
             dbObj = persistObj.getDB();
             dbObj.collection('programDetailsDataBase').aggregate().toArray(function(err, result){
-                console.log("FUNCTION 1");
                 callback(null, result);
             });
         },
         function(programList, callback){
-            console.log("FUNCTION 2");
             var totalPrograms = programList.length;
             console.log("totalPrograms: ", totalPrograms);
-    
             fs.readFile('./jsons/v2/ondemandFilters.json', 'utf8', function (err, data) {
                if (err) throw err;
                ondemandFilterObj = JSON.parse(data);
@@ -696,9 +693,7 @@ function reSchedulePrograms()
                     for(var index in programList)
                     {   
                        randomIndex = Math.floor((Math.random() * totalPrograms) + 1);
-                       
                        var program = programList[randomIndex];
-                       console.log("program: ", program);
                        
                        if(filterType == "Potrait") //movie type
                        {
