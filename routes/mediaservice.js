@@ -344,7 +344,12 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
                      if(err) throw err;
                      if (items[0])
                      {
-                        pgmId = items[0].details.programID;
+                        var pgmId = items[0].details.programID;
+                        var castNCrewsObj = items[0].details.castAndCrews
+                        if( castNCrewsObj == null )
+                        {
+                            items[0].details["castAndCrews"] = [];
+                        }
                         dbObj.collection('programDataBase').find({"programs.details.programID":pgmId},{"channelId":1,"programs.details.$":1,_id:0}).toArray(function(err,dataArray){
                            if(err) throw err;
                            console.log(pgmId);
