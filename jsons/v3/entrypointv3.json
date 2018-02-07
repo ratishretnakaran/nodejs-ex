@@ -1,0 +1,18 @@
+{
+  "title": "Entry Points",
+  "childNodes": [
+    {
+      "context": "mainMenu",
+      "details": {
+        "actionParams": [
+          {
+            "type": "URL",
+            "value": "/entrypoint/v3/mainmenu",
+            "replaceString": "",
+            "replaceType": ""
+          }
+        ]
+      }
+    }
+  ]
+}

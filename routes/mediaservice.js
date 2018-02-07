@@ -19,7 +19,7 @@ var channelsNewObj;
 var programsIdMap = {};
 var collectionItemCount = 0;
 var programsList;
-
+var request = require('request').defaults({ encoding: null });
 var cloudinary = require('cloudinary');
 
 cloudinary.config({
@@ -245,6 +245,37 @@ router.get('/latestMovies',function(req, res){
     console.log("latest Movies service end of block");
 });
 
+router.get('/images/:category/:options/:image',function(req,res){
+
+   category = req.params.category;
+   var url;
+   if(category == "mainmenu")
+   {
+      url = "http://res.cloudinary.com/dte07foms/image/upload/v1512643992/mainmenu/v2/"+req.params.options+"/"+req.params.image;
+   }
+   else if(category == "imageserver")
+   {
+      url = "http://res.cloudinary.com/dte07foms/image/upload/v1515162152/imageserver/"+req.params.options+"/"+req.params.image;
+   }
+   request.get(url, function(err,response,body){
+      if (response && response.headers)
+      {
+         data = "data:" + response.headers["content-type"] + ";base64," + new Buffer(body).toString('base64');
+         var im = data.split(",")[1];
+         var img = new Buffer(im, 'base64');
+         res.writeHead(200, {
+            'Content-Type': response.headers["content-type"],
+            'Content-Length': img.length
+         });
+         res.end(img,'binary');
+      }
+      else {
+         res.writeHead(200,{});
+         res.end();
+      }
+   });
+});
+
 //CONFIGURATION
 router.post('/configuration',function(req, res){
    console.log("CONFIGURATION GET");
@@ -256,68 +287,6 @@ router.post('/configuration',function(req, res){
       res.send(obj);
    });
 });
-
-//ENTRY POINT
-router.get('/entrypoint/v1',function(req, res){
-   console.log("ENTRY POINT GET");
-
-   var obj;
-   fs.readFile('./jsons/v1/entrypoint.json', 'utf8', function (err, data) {
-      if (err) throw err;
-      obj = JSON.parse(data);
-      res.send(obj);
-   });
-});
-
-//MAIN MENU
-router.get('/entrypoint/v1/mainmenu',function(req, res){
-   console.log("MAIN MENU GET");
-
-   var obj;
-   fs.readFile('./jsons/mainmenu.json', 'utf8', function (err, data) {
-      if (err) throw err;
-      obj = JSON.parse(data);
-      res.send(obj);
-   });
-});
-
-//CHANNELS
-router.get('/entrypoint/v1/channels',function(req, res){
-   console.log("CHANNELS GET");
-
-   var obj;
-   fs.readFile('./jsons/v1/channels.json', 'utf8', function (err, data) {
-      if (err) throw err;
-      obj = JSON.parse(data);
-      res.send(obj);
-   });
-});
-
-//ON NOW
-router.get('/entrypoint/v1/programs/onnow',function(req, res){
-   console.log("ON NOW GET");
-
-   var obj;
-   fs.readFile('./jsons/v1/onnowprograms.json', 'utf8', function (err, data) {
-      if (err) throw err;
-      obj = JSON.parse(data);
-      res.send(obj);
-   });
-});
-
-
-//PROGRAM DETAIL
-router.get('/entrypoint/v1/event',function(req, res){
-   console.log("EVENT DETAIL GET");
-
-   var obj;
-   fs.readFile('./jsons/v1/eventdetail.json', 'utf8', function (err, data) {
-      if (err) throw err;
-      obj = JSON.parse(data);
-      res.send(obj);
-   });
-});
-
 
 router.get('/entrypoint/v2/event/:programID',function(req, res){
    console.log("EVENT DETAIL GET V2");
@@ -436,12 +405,36 @@ router.get('/entrypoint/v2',function(req, res){
    });
 });
 
+//ENTRY POINT V3
+router.get('/entrypoint/v3',function(req, res){
+   console.log("ENTRY POINT GET V3");
+
+   var obj;
+   fs.readFile('./jsons/v3/entrypointv3.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
+
 //MAIN MENU
 router.get('/entrypoint/v2/mainmenu',function(req, res){
    console.log("MAIN MENU GET V2");
 
    var obj;
    fs.readFile('./jsons/mainmenu.json', 'utf8', function (err, data) {
+      if (err) throw err;
+      obj = JSON.parse(data);
+      res.send(obj);
+   });
+});
+
+//MAIN MENU V3
+router.get('/entrypoint/v3/mainmenu',function(req, res){
+   console.log("MAIN MENU GET V3");
+
+   var obj;
+   fs.readFile('./jsons/v3/mainmenuv3.json', 'utf8', function (err, data) {
       if (err) throw err;
       obj = JSON.parse(data);
       res.send(obj);

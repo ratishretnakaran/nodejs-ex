@@ -1,0 +1,58 @@
+{
+  "sections": [
+    {
+      "name": "",
+      "items": [
+        {
+          "context": "onDemand",
+          "displayText": "VIDEO ON DEMAND",
+          "imageUrl": "/images/mainmenu/nonselected/OnDemand.png",
+          "selectedImageUrl": "/images/mainmenu/selected/OnDemand.png",
+          "url": "/entrypoint/v1/mainMenu/ondemand"
+        },
+        {
+          "context": "tv",
+          "displayText": "LIVE TV",
+          "imageUrl": "/images/mainmenu/nonselected/LiveTv.png",
+          "selectedImageUrl": "/images/mainmenu/selected/LiveTv.png",
+          "url": ""
+        },
+        {
+          "context": "guide",
+          "displayText": "EPG",
+          "imageUrl": "/images/mainmenu/nonselected/EPG_Unselected.png",
+          "selectedImageUrl": "/images/mainmenu/selected/EPG.png",
+          "url": "/entrypoint/v2/epg"
+        },
+        {
+          "context": "search",
+          "displayText": "SEARCH",
+          "imageUrl": "/images/mainmenu/nonselected/Search.png",
+          "selectedImageUrl": "/images/mainmenu/selected/Search.png",
+          "url": "/entrypoint/v1/mainmenu/search"
+        },
+        {
+          "context": "settings",
+          "displayText": "SETTINGS",
+          "imageUrl": "/images/mainmenu/nonselected/Settings.png",
+          "selectedImageUrl": "/images/mainmenu/selected/Settings.png",
+          "url": ""
+        },
+        {
+          "context": "library",
+          "displayText": "LIBRARY",
+          "imageUrl": "/images/mainmenu/nonselected/Library.png",
+          "selectedImageUrl": "/images/mainmenu/selected/Library.png",
+          "url": ""
+        },
+        {
+          "context": "catchup",
+          "displayText": "CATCHUP",
+          "imageUrl": "/images/mainmenu/nonselected/CatchUp.png",
+          "selectedImageUrl": "/images/mainmenu/selected/CatchUp.png",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
