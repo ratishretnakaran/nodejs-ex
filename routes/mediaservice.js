@@ -170,7 +170,7 @@ function prepareSuggestedMap()
          console.log("Suggested Map Db created");
       }
    });
-   
+
 }
 //ACTORS
 //GET ACTORS
@@ -320,8 +320,8 @@ router.get('/entrypoint/v1/event',function(req, res){
 
 
 router.get('/entrypoint/v2/event/:programID',function(req, res){
-   console.log("EVENT DETAIL GET V2");    
-   
+   console.log("EVENT DETAIL GET V2");
+
    dbObj = persistObj.getDB();
    var col = dbObj.collection('programDetailsDataBase');
    count = 0;
@@ -389,13 +389,13 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
                   });
                }
             });
-            
+
          }
       }else{
          console.log("No details exit for the programId in suggestedMapDB",req.params.programID);
          res.send({});
       }
-      
+
    });
 });
 // router.post('/uploadlogos',function(req, res){
@@ -490,17 +490,118 @@ router.get('/entrypoint/v2/channels',function(req, res){
    });
 });
 
-router.get('/entrypoint/v2/filters',function(req, res){
+router.get('/entrypoint/v2/filters', handleFilter);
+
+function handleFilter(req, res)
+{
    console.log("LIVEFILERS GET V2");
 
-   var obj;
-   fs.readFile('./jsons/v2/liveFilters.json', 'utf8', function (err, data) {
-      if (err) throw err;
-      obj = JSON.parse(data);
-      res.send(obj);
-   });
-});
+   var filterObj;
+   var channelObj;
+   var moviesCount = 0;
+   var sportsCount = 0;
+   var newsCount = 0;
+   var cartoonCount = 0;
+   var musicCount = 0;
+   var educationCount = 0;
+   var devotionalCount = 0;
+   var totalChannelCount = 0;
 
+   async.waterfall([
+      function(callback){
+         fs.readFile('./jsons/v2/channelsv2.json', 'utf8', function (err, data) {
+            if (err) throw err;
+            channelObj = JSON.parse(data);
+            console.log("done with channelObj creation");
+            callback(null, channelObj);
+         });
+      },
+      function(callback){
+         fs.readFile('./jsons/v2/liveFilters.json', 'utf8', function (err, data) {
+            if (err) throw err;
+            filterObj = JSON.parse(data);
+            console.log("done with filterObj creation");
+            if (channelObj)
+            {
+               for(i=0;i<channelObj.length;i++)
+               {
+                  channel = channelObj[i];
+                  totalChannelCount++;
+                  if (channel.filters)
+                  {
+                     for(j=0;j<channel.filters.length;j++)
+                     {
+                        if (channel.filters[j] == "movies")
+                        {
+                           moviesCount++;
+                        }
+                        else if (channel.filters[j] == "sports")
+                        {
+                           sportsCount++;
+                        }
+                        else if (channel.filters[j] == "news")
+                        {
+                           newsCount++;
+                        }
+                        else if (channel.filters[j] == "cartoon")
+                        {
+                           cartoonCount++;
+                        }
+                        else if (channel.filters[j] == "music")
+                        {
+                           musicCount++;
+                        }
+                        else if (channel.filters[j] == "education")
+                        {
+                           educationCount++;
+                        }
+                        else if (channel.filters[j] == "devotional")
+                        {
+                           devotionalCount++;
+                        }
+                     }
+                  }
+               }
+            }
+            for(i=0;i<filterObj.length;i++)
+            {
+               if (filterObj[i].type == "all")
+               {
+                  filterObj[i].filteredChannelCount = totalChannelCount;
+               }
+               else if (filterObj[i].type == "movies")
+               {
+                  filterObj[i].filteredChannelCount = moviesCount;
+               }
+               else if (filterObj[i].type == "sports")
+               {
+                  filterObj[i].filteredChannelCount = sportsCount;
+               }
+               else if (filterObj[i].type == "news")
+               {
+                  filterObj[i].filteredChannelCount = newsCount;
+               }
+               else if (filterObj[i].type == "cartoon")
+               {
+                  filterObj[i].filteredChannelCount = cartoonCount;
+               }
+               else if (filterObj[i].type == "music")
+               {
+                  filterObj[i].filteredChannelCount = musicCount;
+               }
+               else if (filterObj[i].type == "education")
+               {
+                  filterObj[i].filteredChannelCount = educationCount;
+               }
+               else if (filterObj[i].type == "devotional")
+               {
+                  filterObj[i].filteredChannelCount = devotionalCount;
+               }
+            }
+            res.send(filterObj);
+      });
+   }]);
+}
 
 //ENTRY POINT V2
 router.get('/entrypoint/v2/programs/onnow',function(req, res){
@@ -671,10 +772,10 @@ function reSchedulePrograms()
     });
 
  }
- 
- 
+
+
  router.get('/entrypoint/v2/ondemand',function(req, res){
-    async.waterfall([ 
+    async.waterfall([
         function(callback){
             dbObj = persistObj.getDB();
             dbObj.collection('programDetailsDataBase').aggregate().toArray(function(err, result){
@@ -688,22 +789,22 @@ function reSchedulePrograms()
                if (err) throw err;
                ondemandFilterObj = JSON.parse(data);
                for( var filterIndex in ondemandFilterObj)
-               {   
+               {
                     var filteredProgram = [];
                     var filterObj = ondemandFilterObj[filterIndex];
                     //find the type and based on it prepare the list
                     var filterType = filterObj.type;
-                    
+
                     var programCount = 0;
                     for(var index in programList)
-                    {   
+                    {
                        var randomIndex = Math.floor((Math.random() * (totalPrograms - 1)) + 1);
                        var program = programList[randomIndex];
-                       
+
                        if(filterType == "Potrait") //movie type
                        {
                            if( program.eventType == "MOVIE")
-                           {    
+                           {
                                delete program["_id"];
                                program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_317,w_211/v1510918394/imageserver/program/" + program.details.programID;
                                filteredProgram.push(program);
@@ -712,7 +813,7 @@ function reSchedulePrograms()
                                {
                                    break;
                                }
-                           } 
+                           }
                        }
                        else
                        {
@@ -724,7 +825,7 @@ function reSchedulePrograms()
                            else
                            {
                                if( program.eventType == "EPISODE")
-                               {    
+                               {
                                    delete program["_id"];
                                    //change the imageUrl path to hold iconic
                                    program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_180,w_321/v1510918394/imageserver/program/iconic/" + program.details.programID;
@@ -733,12 +834,12 @@ function reSchedulePrograms()
                                    if(programCount > 5)
                                    {
                                        break;
-                                   }  
+                                   }
                                }
                            }
                        }
                     }
-                    
+
                     filterObj["assets"] = filteredProgram;
                }
                res.send(ondemandFilterObj);
@@ -749,6 +850,7 @@ function reSchedulePrograms()
     function (err,result) {
     console.log(result)
     });
+
  });
 
 

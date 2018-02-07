@@ -1,34 +1,50 @@
 [
   {
     "title": "All Channels",
-    "type": "all"
+    "type": "all",
+    "filteredChannelCount":"0",
+    "iconImageUrl":"http://res.cloudinary.com/dte07foms/image/upload/v1518005759/imageserver/filters/allChannels.png"
   },
   {
     "title": "Movies",
-    "type": "movies"
+    "type": "movies",
+    "filteredChannelCount":"0",
+    "iconImageUrl":"http://res.cloudinary.com/dte07foms/image/upload/v1518005759/imageserver/filters/movies.png"
   },
   {
     "title": "Sports",
-    "type": "sports"
+    "type": "sports",
+    "filteredChannelCount":"0",
+    "iconImageUrl":"http://res.cloudinary.com/dte07foms/image/upload/v1518005759/imageserver/filters/sports.png"
   },
   {
     "title": "News",
-    "type": "news"
+    "type": "news",
+    "filteredChannelCount":"0",
+    "iconImageUrl":"http://res.cloudinary.com/dte07foms/image/upload/v1518005759/imageserver/filters/news.png"
   },
   {
     "title": "Cartoon",
-    "type": "cartoon"
+    "type": "cartoon",
+    "filteredChannelCount":"0",
+    "iconImageUrl":"http://res.cloudinary.com/dte07foms/image/upload/v1518005759/imageserver/filters/cartoon.png"
   },
   {
     "title": "Music",
-    "type": "music"
+    "type": "music",
+    "filteredChannelCount":"0",
+    "iconImageUrl":"http://res.cloudinary.com/dte07foms/image/upload/v1518005759/imageserver/filters/music.png"
   },
   {
     "title": "Education",
-    "type": "education"
+    "type": "education",
+    "filteredChannelCount":"0",
+    "iconImageUrl":"http://res.cloudinary.com/dte07foms/image/upload/v1518005759/imageserver/filters/education.png"
   },
   {
     "title": "Devotional",
-    "type": "devotional"
+    "type": "devotional",
+    "filteredChannelCount":"0",
+    "iconImageUrl":"http://res.cloudinary.com/dte07foms/image/upload/v1518005759/imageserver/filters/devotional.png"
   }
 ]
