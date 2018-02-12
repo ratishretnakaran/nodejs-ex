@@ -802,7 +802,7 @@ function reSchedulePrograms()
                                program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_317,w_211/v1510918394/imageserver/program/" + program.details.programID;
                                filteredProgram.push(program);
                                programCount++;
-                               if(programCount > 5)
+                               if(programCount > 50)
                                {
                                    break;
                                }
@@ -815,6 +815,18 @@ function reSchedulePrograms()
                            {
                                 break;
                            }
+                           else if (filterContext == "topLine")
+                           {
+                              delete program["_id"];
+                              //change the imageUrl path to hold iconic
+                              program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_580,w_1600/v1510918394/imageserver/program/iconic/" + program.details.programID;
+                              filteredProgram.push(program);
+                              programCount++;
+                              if(programCount > 50)
+                              {
+                                  break;
+                              }
+                           }
                            else
                            {
                                if( program.eventType == "EPISODE")
@@ -824,7 +836,7 @@ function reSchedulePrograms()
                                    program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_180,w_321/v1510918394/imageserver/program/iconic/" + program.details.programID;
                                    filteredProgram.push(program);
                                    programCount++;
-                                   if(programCount > 5)
+                                   if(programCount > 50)
                                    {
                                        break;
                                    }
