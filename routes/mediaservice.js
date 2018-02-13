@@ -772,10 +772,22 @@ function reSchedulePrograms()
         function(callback){
             dbObj = persistObj.getDB();
             dbObj.collection('programDetailsDataBase').aggregate().toArray(function(err, result){
-                callback(null, result);
+               callback(null, result);
             });
         },
         function(programList, callback){
+            var odResult = {}
+            fs.readFile('./jsons/v2/onDemandGenres.json', 'utf8', function (err, data) {
+            if (err) throw err;
+               genreObj = JSON.parse(data);
+               odResult["programList"] = programList;
+               odResult["genreObj"] = genreObj;
+               callback(null, odResult);
+           });
+        },
+        function(odResult, callback){
+            var programList = odResult.programList;
+            var genreObj = odResult.genreObj;
             var totalPrograms = programList.length;
             console.log("totalPrograms: ", totalPrograms);
             fs.readFile('./jsons/v2/ondemandFilters.json', 'utf8', function (err, data) {
@@ -813,7 +825,8 @@ function reSchedulePrograms()
                            var filterContext = filterObj.context;
                            if( filterContext == "categories")
                            {
-                                break;
+                              filteredProgram = genreObj;
+                              break;
                            }
                            else if (filterContext == "topLine")
                            {

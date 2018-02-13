@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Adventure",
+    "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_fill,co_rgb:091c7c,dn_50,e_grayscale,h_176,pg_1,w_235/e_blue:100/v1517552423/imageserver/program/iconic/EP005240610127.jpg",
+    "detailUrl":"",
+    "type":"genre"
+  },
+  {
+    "title": "Animation",
+    "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_fill,co_rgb:091c7c,dn_50,e_grayscale,h_176,pg_1,w_235/e_blue:100/v1517552423/imageserver/program/iconic/EP003618800131.jpg",
+    "detailUrl":"",
+    "type":"genre"
+   },
+   {
+     "title": "Action",
+     "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_fill,co_rgb:091c7c,dn_50,e_grayscale,h_176,pg_1,w_235/e_blue:100/v1517552423/imageserver/program/iconic/MV003523280000.jpg",
+     "detailUrl":"",
+     "type":"genre"
+   },
+   {
+     "title": "Comedy",
+     "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_fill,co_rgb:091c7c,dn_50,e_grayscale,h_176,pg_1,w_235/e_blue:100/v1517552423/imageserver/program/iconic/EP022413960046.jpg",
+     "detailUrl":"",
+     "type":"genre"
+   },
+   {
+     "title": "Horror",
+     "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_fill,co_rgb:091c7c,dn_50,e_grayscale,h_176,pg_1,w_235/e_blue:100/v1517552423/imageserver/program/iconic/MV007435740000.jpg",
+     "detailUrl":"",
+     "type":"genre"
+   },
+   {
+     "title": "Romance",
+     "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_fill,co_rgb:091c7c,dn_50,e_grayscale,h_176,pg_1,w_235/e_blue:100/v1517552423/imageserver/program/iconic/MV001181320000.jpg",
+     "detailUrl":"",
+     "type":"genre"
+   },
+   {
+    "title": "Travel",
+    "imageUrl": "http://res.cloudinary.com/dte07foms/image/upload/c_fill,co_rgb:091c7c,dn_50,e_grayscale,h_176,pg_1,w_235/e_blue:100/v1517552423/imageserver/program/iconic/SH027771620000.jpg",
+    "detailUrl":"",
+    "type":"genre"
+   }
+]
