@@ -1,6 +1,6 @@
 [
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -65,7 +65,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -112,7 +112,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -160,7 +160,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -223,7 +223,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -297,7 +297,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -343,7 +343,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -429,7 +429,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -486,7 +486,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -549,7 +549,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -613,7 +613,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -673,7 +673,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -720,7 +720,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -767,7 +767,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -837,7 +837,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -881,7 +881,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -932,7 +932,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -978,7 +978,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1026,7 +1026,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1093,7 +1093,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1173,7 +1173,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1224,7 +1224,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1275,7 +1275,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1355,7 +1355,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1407,7 +1407,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1465,7 +1465,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -1520,7 +1520,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1583,7 +1583,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1630,7 +1630,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1690,7 +1690,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1737,7 +1737,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1783,7 +1783,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1863,7 +1863,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1949,7 +1949,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -1995,7 +1995,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2053,7 +2053,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2099,7 +2099,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2145,7 +2145,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2221,7 +2221,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2251,7 +2251,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2331,7 +2331,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2378,7 +2378,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2425,7 +2425,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2471,7 +2471,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2518,7 +2518,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2601,7 +2601,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2675,7 +2675,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2749,7 +2749,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2796,7 +2796,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2856,7 +2856,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2939,7 +2939,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -2986,7 +2986,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3033,7 +3033,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3103,7 +3103,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3173,7 +3173,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3241,7 +3241,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3288,7 +3288,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3340,7 +3340,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3387,7 +3387,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3434,7 +3434,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3480,7 +3480,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3554,7 +3554,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3601,7 +3601,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3661,7 +3661,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3721,7 +3721,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3795,7 +3795,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3843,7 +3843,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3894,7 +3894,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -3959,7 +3959,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4019,7 +4019,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4099,7 +4099,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4145,7 +4145,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4219,7 +4219,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4286,7 +4286,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4337,7 +4337,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4388,7 +4388,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4465,7 +4465,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4513,7 +4513,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4562,7 +4562,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4609,7 +4609,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4692,7 +4692,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4772,7 +4772,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4819,7 +4819,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -4902,7 +4902,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -4955,7 +4955,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5002,7 +5002,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5076,7 +5076,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5123,7 +5123,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5181,7 +5181,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5228,7 +5228,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5275,7 +5275,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5334,7 +5334,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5394,7 +5394,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5442,7 +5442,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5512,7 +5512,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -5592,7 +5592,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5639,7 +5639,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5716,7 +5716,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -5793,7 +5793,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5840,7 +5840,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5900,7 +5900,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -5974,7 +5974,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6022,7 +6022,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6073,7 +6073,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6120,7 +6120,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6172,7 +6172,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6219,7 +6219,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6279,7 +6279,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6356,7 +6356,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -6433,7 +6433,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6480,7 +6480,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6554,7 +6554,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6631,7 +6631,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6678,7 +6678,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6725,7 +6725,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6772,7 +6772,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6832,7 +6832,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6906,7 +6906,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -6953,7 +6953,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7016,7 +7016,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7064,7 +7064,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7141,7 +7141,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7221,7 +7221,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7281,7 +7281,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -7361,7 +7361,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7415,7 +7415,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7462,7 +7462,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7510,7 +7510,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7557,7 +7557,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7607,7 +7607,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7654,7 +7654,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7701,7 +7701,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7775,7 +7775,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7835,7 +7835,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7895,7 +7895,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7942,7 +7942,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -7989,7 +7989,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8036,7 +8036,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8083,7 +8083,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8160,7 +8160,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8237,7 +8237,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8284,7 +8284,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -8361,7 +8361,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8408,7 +8408,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8455,7 +8455,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8502,7 +8502,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8560,7 +8560,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8624,7 +8624,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8698,7 +8698,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8775,7 +8775,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8843,7 +8843,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8920,7 +8920,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -8997,7 +8997,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9045,7 +9045,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9119,7 +9119,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9166,7 +9166,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9213,7 +9213,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9260,7 +9260,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9340,7 +9340,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9387,7 +9387,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9435,7 +9435,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9482,7 +9482,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9556,7 +9556,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9603,7 +9603,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9651,7 +9651,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9711,7 +9711,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9788,7 +9788,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9835,7 +9835,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9891,7 +9891,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -9951,7 +9951,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10028,7 +10028,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10076,7 +10076,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10124,7 +10124,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10172,7 +10172,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10219,7 +10219,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10293,7 +10293,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10340,7 +10340,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10417,7 +10417,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10488,7 +10488,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10543,7 +10543,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10591,7 +10591,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10639,7 +10639,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10686,7 +10686,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10746,7 +10746,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10809,7 +10809,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -10886,7 +10886,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -10960,7 +10960,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11034,7 +11034,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11111,7 +11111,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11163,7 +11163,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11236,7 +11236,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11313,7 +11313,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11360,7 +11360,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11408,7 +11408,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11468,7 +11468,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11516,7 +11516,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11593,7 +11593,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11665,7 +11665,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11713,7 +11713,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11761,7 +11761,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11838,7 +11838,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -11918,7 +11918,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -11986,7 +11986,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12033,7 +12033,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12096,7 +12096,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12170,7 +12170,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12217,7 +12217,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12297,7 +12297,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12346,7 +12346,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12407,7 +12407,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12481,7 +12481,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12529,7 +12529,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12606,7 +12606,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12675,7 +12675,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12723,7 +12723,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12797,7 +12797,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12845,7 +12845,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12893,7 +12893,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -12953,7 +12953,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13004,7 +13004,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13064,7 +13064,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13111,7 +13111,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13158,7 +13158,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13205,7 +13205,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13253,7 +13253,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13301,7 +13301,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13348,7 +13348,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13395,7 +13395,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13449,7 +13449,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13496,7 +13496,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13573,7 +13573,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13619,7 +13619,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13693,7 +13693,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13739,7 +13739,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13786,7 +13786,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13833,7 +13833,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13879,7 +13879,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13925,7 +13925,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -13981,7 +13981,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14028,7 +14028,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14083,7 +14083,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14160,7 +14160,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14209,7 +14209,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14272,7 +14272,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14330,7 +14330,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14378,7 +14378,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14430,7 +14430,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14500,7 +14500,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14554,7 +14554,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14600,7 +14600,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14647,7 +14647,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14721,7 +14721,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14767,7 +14767,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14841,7 +14841,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14915,7 +14915,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -14989,7 +14989,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15035,7 +15035,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15082,7 +15082,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15165,7 +15165,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15212,7 +15212,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15281,7 +15281,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15328,7 +15328,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15408,7 +15408,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15455,7 +15455,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -15538,7 +15538,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -15618,7 +15618,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15704,7 +15704,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15784,7 +15784,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -15858,7 +15858,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -15938,7 +15938,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16018,7 +16018,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -16098,7 +16098,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16187,7 +16187,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16267,7 +16267,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16327,7 +16327,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16407,7 +16407,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16481,7 +16481,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16561,7 +16561,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -16644,7 +16644,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16724,7 +16724,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -16804,7 +16804,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16878,7 +16878,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -16958,7 +16958,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17035,7 +17035,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -17112,7 +17112,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17192,7 +17192,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17265,7 +17265,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17325,7 +17325,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17374,7 +17374,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17434,7 +17434,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17505,7 +17505,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17553,7 +17553,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17626,7 +17626,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17686,7 +17686,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17746,7 +17746,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17792,7 +17792,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17866,7 +17866,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17932,7 +17932,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -17979,7 +17979,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18025,7 +18025,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18072,7 +18072,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18119,7 +18119,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18166,7 +18166,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18223,7 +18223,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18297,7 +18297,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18344,7 +18344,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18391,7 +18391,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18438,7 +18438,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18486,7 +18486,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18533,7 +18533,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18616,7 +18616,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18676,7 +18676,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18736,7 +18736,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18799,7 +18799,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18850,7 +18850,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18897,7 +18897,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18944,7 +18944,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -18995,7 +18995,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19055,7 +19055,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19114,7 +19114,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19169,7 +19169,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19216,7 +19216,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19263,7 +19263,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19311,7 +19311,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19362,7 +19362,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19416,7 +19416,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19463,7 +19463,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19523,7 +19523,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19594,7 +19594,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19641,7 +19641,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19692,7 +19692,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19740,7 +19740,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19787,7 +19787,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19833,7 +19833,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19881,7 +19881,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -19941,7 +19941,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20001,7 +20001,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20055,7 +20055,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20102,7 +20102,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20150,7 +20150,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20197,7 +20197,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20258,7 +20258,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20304,7 +20304,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20351,7 +20351,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20411,7 +20411,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20471,7 +20471,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20522,7 +20522,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20568,7 +20568,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20615,7 +20615,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20669,7 +20669,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20717,7 +20717,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20774,7 +20774,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20825,7 +20825,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20873,7 +20873,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -20927,7 +20927,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21001,7 +21001,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21063,7 +21063,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21143,7 +21143,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21191,7 +21191,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21238,7 +21238,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21297,7 +21297,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21345,7 +21345,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21405,7 +21405,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21455,7 +21455,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21521,7 +21521,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21570,7 +21570,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21621,7 +21621,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21668,7 +21668,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21716,7 +21716,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21764,7 +21764,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21812,7 +21812,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21866,7 +21866,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21925,7 +21925,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -21973,7 +21973,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22021,7 +22021,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22069,7 +22069,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22116,7 +22116,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22186,7 +22186,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22246,7 +22246,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22298,7 +22298,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22345,7 +22345,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22407,7 +22407,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22458,7 +22458,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22505,7 +22505,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22553,7 +22553,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22600,7 +22600,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22647,7 +22647,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22695,7 +22695,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22749,7 +22749,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22808,7 +22808,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22859,7 +22859,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22927,7 +22927,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -22974,7 +22974,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23025,7 +23025,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23085,7 +23085,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23162,7 +23162,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23245,7 +23245,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23292,7 +23292,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23366,7 +23366,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -23446,7 +23446,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23526,7 +23526,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23606,7 +23606,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23680,7 +23680,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23763,7 +23763,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23837,7 +23837,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23920,7 +23920,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -23994,7 +23994,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -24068,7 +24068,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -24149,7 +24149,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -24229,7 +24229,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -24303,7 +24303,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -24386,7 +24386,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
@@ -24466,7 +24466,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "MOVIE",
     "node": "productDetail",
     "details": {
@@ -24549,7 +24549,7 @@
     }
   },
   {
-    "event": "event",
+    "type": "event",
     "eventType": "EPISODE",
     "node": "productDetail",
     "details": {
