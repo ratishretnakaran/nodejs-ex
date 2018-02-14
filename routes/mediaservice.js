@@ -811,7 +811,7 @@ function reSchedulePrograms()
                            if( program.eventType == "MOVIE")
                            {
                                delete program["_id"];
-                               program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_317,w_211/v1510918394/imageserver/program/" + program.details.programID;
+                               program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_fill,h_317,w_211/v1510918394/imageserver/program/" + program.details.programID;
                                filteredProgram.push(program);
                                programCount++;
                                if(programCount > 50)
@@ -832,7 +832,7 @@ function reSchedulePrograms()
                            {
                               delete program["_id"];
                               //change the imageUrl path to hold iconic
-                              program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_580,w_1600/v1510918394/imageserver/program/iconic/" + program.details.programID;
+                              program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_fill,h_580,w_1600/v1510918394/imageserver/program/iconic/" + program.details.programID;
                               filteredProgram.push(program);
                               programCount++;
                               if(programCount > 50)
@@ -846,7 +846,7 @@ function reSchedulePrograms()
                                {
                                    delete program["_id"];
                                    //change the imageUrl path to hold iconic
-                                   program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_scale,h_180,w_321/v1510918394/imageserver/program/iconic/" + program.details.programID;
+                                   program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_fill,h_180,w_321/v1510918394/imageserver/program/iconic/" + program.details.programID;
                                    filteredProgram.push(program);
                                    programCount++;
                                    if(programCount > 50)
