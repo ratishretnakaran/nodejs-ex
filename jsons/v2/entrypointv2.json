@@ -93,6 +93,19 @@
      }
    },
    {
+     "context": "liveFilters",
+     "details": {
+      "actionParams": [
+         {
+           "type": "URL",
+           "value": "/entrypoint/v2/filters",
+           "replaceString": "",
+           "replaceType": ""
+         }
+      ]
+     }
+   },
+   {
      "context": "epg",
      "details": {
       "actionParams": [
