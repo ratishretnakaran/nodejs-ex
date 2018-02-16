@@ -23,10 +23,12 @@ var request = require('request').defaults({ encoding: null });
 var cloudinary = require('cloudinary');
 
 cloudinary.config({
-  cloud_name: '',
-  api_key: '',
-  api_secret: ''
+   cloud_name: '', 
+   api_key: '', 
+   api_secret: '-' 
 });
+
+
 
 //Startup functions
 //prepareProgramsIDMap();
@@ -367,6 +369,7 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
 
    });
 });
+
 // router.post('/uploadlogos',function(req, res){
 //    console.log("UPLOAD IMAGES");
 //
@@ -390,6 +393,32 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
 //    res.writeHead(200, {'Content-Type': 'text/plain'});
 //    res.end('Got Post Data');
 // });
+
+router.post('/uploadPosters',function(req, res){
+   console.log("UPLOAD IMAGES");
+   //dbObj = persistObj.getDB();
+   //dbObj.collection('programDetailsDataBase').aggregate( ).toArray(function(err, result){
+   fs.readFile('./jsons/v2/programListClean2.json', 'utf8', function (err, data){
+      if(err) throw err;   
+       //console.log("printing result: ", result);
+       var result = JSON.parse(data);
+       for(var index in result)
+       {
+           
+          var program = result[index];
+          if(program.details.programType == "movie")
+          {
+              var imageSourceUrl = "sourceURL"+program.details.programID;
+              console.log("imageSourceUrl :", imageSourceUrl);
+              var cloudinaryPath = "imageserver/program/"+program.details.programID
+              console.log("cloudinaryPath :", cloudinaryPath);
+              cloudinary.v2.uploader.upload(imageSourceUrl, {use_filename: true, public_id: cloudinaryPath},function(error, result){console.log(result)});
+          }
+       }
+   });
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Got Post Data');
+});
 
 //MORE REALTIME DATA COMING FROM THE EPG PROGRAMS.
 
@@ -770,10 +799,16 @@ function reSchedulePrograms()
  router.get('/entrypoint/v2/ondemand',function(req, res){
     async.waterfall([
         function(callback){
-            dbObj = persistObj.getDB();
-            dbObj.collection('programDetailsDataBase').aggregate().toArray(function(err, result){
-               callback(null, result);
-            });
+            // dbObj = persistObj.getDB();
+            // dbObj.collection('programDetailsDataBase').aggregate().toArray(function(err, result){
+            //    callback(null, result);
+            // });
+            fs.readFile('./jsons/v2/programsListClean.json', 'utf8', function (err, data) {
+               if (err) throw err;
+               dbObj = persistObj.getDB();
+               var programsList = JSON.parse(data);
+               callback(null, programsList);
+           });   
         },
         function(programList, callback){
             var odResult = {}
@@ -795,26 +830,26 @@ function reSchedulePrograms()
                ondemandFilterObj = JSON.parse(data);
                for( var filterIndex in ondemandFilterObj)
                {
-                    var filteredProgram = [];
+                    var filteredPrograms = [];
                     var filterObj = ondemandFilterObj[filterIndex];
                     //find the type and based on it prepare the list
                     var filterType = filterObj.type;
-
+                    
                     var programCount = 0;
                     for(var index in programList)
                     {
                        var randomIndex = Math.floor((Math.random() * (totalPrograms - 1)) + 1);
-                       var program = programList[randomIndex];
-
+                       var rawProgram = programList[randomIndex];
+                       var program = copyProgram(rawProgram)                       
+                       
                        if(filterType == "Potrait") //movie type
                        {
-                           if( program.eventType == "MOVIE")
+                           if( program.details.programType == "movie")
                            {
-                               delete program["_id"];
-                               program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_fill,h_317,w_211/v1510918394/imageserver/program/" + program.details.programID;
-                               filteredProgram.push(program);
+                               program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_fill,h_317,w_211/v1518786867/imageserver/program/" + program.details.programID;
+                               filteredPrograms.push(program);
                                programCount++;
-                               if(programCount > 50)
+                               if(programCount > 100)
                                {
                                    break;
                                }
@@ -825,31 +860,30 @@ function reSchedulePrograms()
                            var filterContext = filterObj.context;
                            if( filterContext == "categories")
                            {
-                              filteredProgram = genreObj;
+                              filteredPrograms = genreObj;
                               break;
                            }
                            else if (filterContext == "topLine")
                            {
-                              delete program["_id"];
                               //change the imageUrl path to hold iconic
-                              program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_fill,h_580,w_1600/v1510918394/imageserver/program/iconic/" + program.details.programID;
-                              filteredProgram.push(program);
+                              program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_fill,g_xy_center,h_580,w_1600/v1510918394/imageserver/program/iconic/" + program.details.programID;
+                              filteredPrograms.push(program);
                               programCount++;
                               if(programCount > 50)
                               {
-                                  break;
+                                 break;
                               }
                            }
                            else
                            {
-                               if( program.eventType == "EPISODE")
+                               if( program.details.programType == "episode")
                                {
-                                   delete program["_id"];
+                                  //delete program["_id"];
                                    //change the imageUrl path to hold iconic
                                    program.details.imageUrl = "http://res.cloudinary.com/dte07foms/image/upload/c_fill,h_180,w_321/v1510918394/imageserver/program/iconic/" + program.details.programID;
-                                   filteredProgram.push(program);
+                                   filteredPrograms.push(program);
                                    programCount++;
-                                   if(programCount > 50)
+                                   if(programCount > 100)
                                    {
                                        break;
                                    }
@@ -858,7 +892,7 @@ function reSchedulePrograms()
                        }
                     }
 
-                    filterObj["assets"] = filteredProgram;
+                    filterObj["assets"] = filteredPrograms;
                }
                res.send(ondemandFilterObj);
                callback(null, "ONDEMAND REQUEST PROCESSED....")
@@ -870,6 +904,23 @@ function reSchedulePrograms()
     });
 
  });
+
+function copyProgram(rawProgram)
+{
+    var newProgram = {};
+    var pgmDetail = {};
+    for( var detailKey in rawProgram.details)
+    {
+        pgmDetail[detailKey] = rawProgram.details[detailKey];
+    }
+    
+    newProgram["details"] = pgmDetail;
+    
+    return newProgram;
+}
+
+
+     
 
 
 module.exports = router;
