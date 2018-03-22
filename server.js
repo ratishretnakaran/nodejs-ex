@@ -13,8 +13,7 @@ app.use(morgan('combined'))
 
 var bodyParser = require('body-parser');
 app.use(bodyParser.json()); // support json encoded bodies
-
-app.use(express.static('public'));  
+app.use(express.static('views'));  
 
 //ROUTE MEDIA SERVICE CALL: example: http://127.0.0.1:8888/mediaservice/actors
 app.use(function (req, res, next) {

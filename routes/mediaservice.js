@@ -394,7 +394,7 @@ router.get('/entrypoint/v2/event/:programID',function(req, res){
 //    res.end('Got Post Data');
 // });
 
-router.post('/uploadPosters',function(req, res){
+router.post('/uploadIconicPosters',function(req, res){
    console.log("UPLOAD IMAGES");
    //dbObj = persistObj.getDB();
    //dbObj.collection('programDetailsDataBase').aggregate( ).toArray(function(err, result){
@@ -410,9 +410,9 @@ router.post('/uploadPosters',function(req, res){
           {
               var imageSourceUrl = "sourceURL"+program.details.programID;
               console.log("imageSourceUrl :", imageSourceUrl);
-              var cloudinaryPath = "imageserver/program/"+program.details.programID
+              var cloudinaryPath = "imageserver/program/iconic/"+program.details.programID              
               console.log("cloudinaryPath :", cloudinaryPath);
-              cloudinary.v2.uploader.upload(imageSourceUrl, {use_filename: true, public_id: cloudinaryPath},function(error, result){console.log(result)});
+              //cloudinary.v2.uploader.upload(imageSourceUrl, {use_filename: true, public_id: cloudinaryPath},function(error, result){console.log(result)});
           }
        }
    });
